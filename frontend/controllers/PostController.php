@@ -53,6 +53,15 @@ class PostController extends BaseController
     public function actionCreate()
     {
         $model = new PostForm();
+        //定义场景
+        $model->setScenario(PostForm::SCENARIOS_CREATE);
+        if ($model->load(\Yii::$app->request->post()) && $model->validate()) {
+          if (!$model->create()) {
+                \Yii::$app->session->setFlash('warning', $model->_lsatError);
+            } else {
+                return $this->redirect(['post/view', 'id' => $model->id]);
+            }
+        }
         $cat = CatModel::getAllCats();
         return $this->render('create', ['model' => $model, 'cat' => $cat]);
     }

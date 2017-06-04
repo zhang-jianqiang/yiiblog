@@ -9,7 +9,9 @@
 
 namespace frontend\models;
 
+use common\models\PostModel;
 use yii\base\Model;
+use Yii;
 
 
 class PostForm extends Model
@@ -23,6 +25,23 @@ class PostForm extends Model
 
     public $_lsatError = '';
 
+    //定义场景
+    const SCENARIOS_CREATE = 'create';
+    const SCENARIOS_UPDATE = 'update';
+
+    /**
+     * 场景设置
+     */
+    public function scenarios()
+    {
+        $scenarios = [
+            self::SCENARIOS_CREATE => ['title', 'content', 'label_img', 'cat_id', 'tags'],
+            self::SCENARIOS_UPDATE => ['title', 'content', 'label_img', 'cat_id', 'tags'],
+        ];
+
+        return array_merge(parent::scenarios(), $scenarios);
+    }
+
     public function rules()
     {
         return [
@@ -32,6 +51,10 @@ class PostForm extends Model
         ];
     }
 
+    /**
+     * 字段映射
+     * @return array
+     */
     public function attributeLabels()
     {
         return [
@@ -42,6 +65,60 @@ class PostForm extends Model
             'tags'      => '标签图',
             'cat_id'    => '分类',
         ];
+    }
+
+    /**
+     * 添加文章
+     * @return bool
+     * @throws \yii\db\Exception
+     */
+    public function create()
+    {
+        //事务
+        $transaction = Yii::$app->db->beginTransaction();
+        try {
+            $model = new PostModel();
+            $model->setAttributes($this->attributes);
+            $model->summary = $this->_getSummary();
+            $model->user_id = Yii::$app->user->identity->id;
+            $model->user_name= Yii::$app->user->identity->username;
+            $model->is_valid = PostModel::IS_VALID;
+            $model->updated_at = time();
+            $model->created_at = time();
+            if (!$model->save()) {
+                throw new \Exception('文章保存失败');
+            }
+            $this->id = $model->id;
+            //调用事件
+            $this->_eventAfterCreate();
+            $transaction->commit();
+            return true;
+        } catch (\Exception $e) {
+            $this->_lsatError = $e->getMessage();
+            $transaction->rollBack();
+            return false;
+        }
+    }
+
+    /**
+     * 文章摘要
+     * @param int $s
+     * @param int $e
+     * @param string $char
+     * @return null|string
+     */
+    private function _getSummary($s = 0, $e = 90, $char = 'utf-8')
+    {
+        if (empty($this->content)) {
+            return null;
+        }
+
+        return mb_substr(str_replace('&nbsp;', '', strip_tags($this->content)), $s, $e, $char);
+    }
+
+    public function _eventAfterCreate()
+    {
+
     }
 
 }

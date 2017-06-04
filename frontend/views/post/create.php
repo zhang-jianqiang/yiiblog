@@ -1,6 +1,7 @@
 <?php
 use yii\widgets\ActiveForm;
 use yii\helpers\Html;
+use yii\helpers\Url;
 //生成面包屑
 $this->title = '创建';
 $this->params['breadcrumbs'][] = ['label' => '文章', 'url' => ['post/index']];
@@ -14,7 +15,10 @@ $this->params['breadcrumbs'][] = $this->title;
             <span>创建文章</span>
         </div>
         <div class="panel-body">
-            <?php $form = ActiveForm::begin();?>
+            <?php $form = ActiveForm::begin([
+                'method' => 'POST',
+                'action' => Url::to(['post/create']),
+            ]);?>
             <?=$form->field($model, 'title')->textInput(['maxlength' =>true])?>
             <?=$form->field($model, 'cat_id')->dropDownList($cat)?>
             <!--上传标签图组件-->

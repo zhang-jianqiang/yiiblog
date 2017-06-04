@@ -23,6 +23,9 @@ use Yii;
  */
 class PostModel extends BaseModel
 {
+    const IS_VALID = 1;//发布
+    const NO_VALID = 0;//未发布
+
     /**
      * @inheritdoc
      */
@@ -62,4 +65,5 @@ class PostModel extends BaseModel
             'updated_at' => 'Updated At',
         ];
     }
+
 }
