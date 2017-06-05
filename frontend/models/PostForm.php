@@ -140,7 +140,7 @@ class PostForm extends Model
      */
     public function _eventAddTag()
     {
-
+        //取消事件用off
     }
 
 }
