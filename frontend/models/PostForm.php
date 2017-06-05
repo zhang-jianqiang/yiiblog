@@ -29,6 +29,10 @@ class PostForm extends Model
     const SCENARIOS_CREATE = 'create';
     const SCENARIOS_UPDATE = 'update';
 
+    //定义事件
+    const EVENT_AFTER_CREATE = 'eventAfterCreate';
+    const EVENT_AFTER_UPDATE = 'eventAfterUpdate';
+
     /**
      * 场景设置
      */
@@ -90,7 +94,8 @@ class PostForm extends Model
             }
             $this->id = $model->id;
             //调用事件
-            $this->_eventAfterCreate();
+            $data = array_merge($this->getAttributes(), $model->getAttributes());
+            $this->_eventAfterCreate($data);
             $transaction->commit();
             return true;
         } catch (\Exception $e) {
@@ -116,7 +121,24 @@ class PostForm extends Model
         return mb_substr(str_replace('&nbsp;', '', strip_tags($this->content)), $s, $e, $char);
     }
 
-    public function _eventAfterCreate()
+    /**
+     * 文件创建后的事件
+     * @param  [type] $data [description]
+     * @return [type]       [description]
+     */
+    public function _eventAfterCreate($data)
+    {
+        //添加事件
+        $this->on(self::EVENT_AFTER_CREATE, [$this, '_eventAddTag'], $data);
+        //触发事件
+        $this->trigger(self::EVENT_AFTER_CREATE);
+    }
+
+    /**
+     * 添加标签
+     * @return [type] [description]
+     */
+    public function _eventAddTag()
     {
 
     }
