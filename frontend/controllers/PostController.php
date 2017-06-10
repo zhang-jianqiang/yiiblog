@@ -10,6 +10,7 @@
 namespace frontend\controllers;
 
 use common\models\CatModel;
+
 use frontend\controllers\base\BaseController;
 use frontend\models\PostForm;
 

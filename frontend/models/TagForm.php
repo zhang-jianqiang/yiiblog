@@ -14,5 +14,24 @@ use yii\base\Model;
 
 class TagForm extends Model
 {
+    public $id;
+    public $tags;
 
+    public function rules()
+    {
+        return [
+            ['tags', 'required'],
+            ['tags', 'each', 'rule' => ['string']],
+        ];
+    }
+
+    public function saveTags()
+    {
+        $ids = [];
+        if (!empty($this->tags)) {
+
+        }
+
+        return $ids;
+    }
 }
