@@ -1,0 +1,2378 @@
+2017-06-10 07:11:33 [127.0.0.1][560][su2vfleboji6rdgli20l0b8ug6][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "assets/c418a0ef/images/bg.jpg". in D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('assets/c418a0ef...', Array)
+#1 D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\phpstudy\WWW\yiiblog\frontend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: é¡µé¢æœªæ‰¾åˆ°ã€‚ in D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\phpstudy\WWW\yiiblog\frontend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2017-06-10 07:11:33 [127.0.0.1][560][su2vfleboji6rdgli20l0b8ug6][info][application] $_COOKIE = [
+    '_csrf' => '65f2fef347f083bbba9816d579140721d97cb8725eba6e2b3bbc81a26f959007a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ø–¢²µT~5=C	Øbâ¬ÀØ¨k–·èN‹<EŸ)%\";}'
+    'PHPSESSID' => 'su2vfleboji6rdgli20l0b8ug6'
+    '_identity' => '6579447d737be37d8ea6acc0c4c50fe93fbb7104894e27e9727b78711d23cfd4a:2:{i:0;s:9:\"_identity\";i:1;s:48:\"[560,\"VmDCPeYZjst2-4Std4Ed0WndREQ9D5vq\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 560
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\Program Files\\Git\\cmd;D:\\phpstudy\\php70n;C:\\ProgramData\\ComposerSetup\\bin;D:\\Program Files\\nodejs\\;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\npm'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php70n'
+    '_FCGI_SHUTDOWN_EVENT_' => '448'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/assets/c418a0ef/images/bg.jpg'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REDIRECT_URL' => '/assets/c418a0ef/images/bg.jpg'
+    'REMOTE_PORT' => '57809'
+    'SCRIPT_FILENAME' => 'D:/phpstudy/WWW/yiiblog/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpstudy/WWW/yiiblog/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpstudy/WWW/yiiblog/frontend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'fblog.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => '_csrf=65f2fef347f083bbba9816d579140721d97cb8725eba6e2b3bbc81a26f959007a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22%F8%96%A2%B2%05%B5T%7E5%0F%3DC%09%D8b%E2%AC%C0%D8%A8k%96%B7%E8N%7F%8B%3CE%9F%29%25%22%3B%7D; PHPSESSID=su2vfleboji6rdgli20l0b8ug6; _identity=6579447d737be37d8ea6acc0c4c50fe93fbb7104894e27e9727b78711d23cfd4a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A48%3A%22%5B560%2C%22VmDCPeYZjst2-4Std4Ed0WndREQ9D5vq%22%2C2592000%5D%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://fblog.com/assets/c418a0ef/css/upload.css'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.86 Safari/537.36'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'fblog.com'
+    'REDIRECT_STATUS' => '200'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1497078693.2218
+    'REQUEST_TIME' => 1497078693
+]
+2017-06-10 07:11:36 [127.0.0.1][-][-][error][yii\base\ErrorException:2] yii\base\ErrorException: rand() expects parameter 2 to be integer, float given in D:\phpstudy\WWW\yiiblog\common\widgets\file_upload\Uploader.php:255
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'rand() expects ...', 'D:\\phpstudy\\WWW...', 255, Array)
+#1 D:\phpstudy\WWW\yiiblog\common\widgets\file_upload\Uploader.php(255): rand(1, 10000000000)
+#2 D:\phpstudy\WWW\yiiblog\common\widgets\file_upload\Uploader.php(88): common\widgets\file_upload\Uploader->getFullName()
+#3 D:\phpstudy\WWW\yiiblog\common\widgets\file_upload\Uploader.php(60): common\widgets\file_upload\Uploader->upFile()
+#4 D:\phpstudy\WWW\yiiblog\common\widgets\file_upload\UploadAction.php(83): common\widgets\file_upload\Uploader->__construct('upfile', Array, 'upload')
+#5 D:\phpstudy\WWW\yiiblog\common\widgets\file_upload\UploadAction.php(42): common\widgets\file_upload\UploadAction->ActUpload()
+#6 [internal function]: common\widgets\file_upload\UploadAction->run()
+#7 D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\base\Action.php(94): call_user_func_array(Array, Array)
+#8 D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\Action->runWithParams(Array)
+#9 D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('upload', Array)
+#10 D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('post/upload', Array)
+#11 D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 D:\phpstudy\WWW\yiiblog\frontend\web\index.php(18): yii\base\Application->run()
+#13 {main}
+2017-06-10 07:11:36 [127.0.0.1][-][-][info][application] $_GET = [
+    'action' => 'uploadimage'
+]
+
+$_FILES = [
+    'upfile' => [
+        'name' => 'small.jpg'
+        'type' => 'image/jpeg'
+        'tmp_name' => 'C:\\Windows\\php73A2.tmp'
+        'error' => 0
+        'size' => 6781
+    ]
+]
+
+$_COOKIE = [
+    '_csrf' => '65f2fef347f083bbba9816d579140721d97cb8725eba6e2b3bbc81a26f959007a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ø–¢²µT~5=C	Øbâ¬ÀØ¨k–·èN‹<EŸ)%\";}'
+    'PHPSESSID' => 'su2vfleboji6rdgli20l0b8ug6'
+    '_identity' => '6579447d737be37d8ea6acc0c4c50fe93fbb7104894e27e9727b78711d23cfd4a:2:{i:0;s:9:\"_identity\";i:1;s:48:\"[560,\"VmDCPeYZjst2-4Std4Ed0WndREQ9D5vq\",2592000]\";}'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\Program Files\\Git\\cmd;D:\\phpstudy\\php70n;C:\\ProgramData\\ComposerSetup\\bin;D:\\Program Files\\nodejs\\;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\npm'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php70n'
+    '_FCGI_SHUTDOWN_EVENT_' => '448'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/post/upload?action=uploadimage'
+    'QUERY_STRING' => 'action=uploadimage'
+    'REQUEST_METHOD' => 'POST'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REDIRECT_QUERY_STRING' => 'action=uploadimage'
+    'REDIRECT_URL' => '/post/upload'
+    'REMOTE_PORT' => '57807'
+    'SCRIPT_FILENAME' => 'D:/phpstudy/WWW/yiiblog/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpstudy/WWW/yiiblog/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpstudy/WWW/yiiblog/frontend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'fblog.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => '_csrf=65f2fef347f083bbba9816d579140721d97cb8725eba6e2b3bbc81a26f959007a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22%F8%96%A2%B2%05%B5T%7E5%0F%3DC%09%D8b%E2%AC%C0%D8%A8k%96%B7%E8N%7F%8B%3CE%9F%29%25%22%3B%7D; PHPSESSID=su2vfleboji6rdgli20l0b8ug6; _identity=6579447d737be37d8ea6acc0c4c50fe93fbb7104894e27e9727b78711d23cfd4a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A48%3A%22%5B560%2C%22VmDCPeYZjst2-4Std4Ed0WndREQ9D5vq%22%2C2592000%5D%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://fblog.com/post/create'
+    'CONTENT_TYPE' => 'multipart/form-data; boundary=----WebKitFormBoundarypW5H1BA9gBo9ayMf'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.86 Safari/537.36'
+    'HTTP_X_CSRF_TOKEN' => 'Tc1x38ibARaJmdWbJHHqebdZ8Q85e4p95QoLSQcQYXq1W9NtzS5VaLyW6NgtqYibG5kpp1LtPZWrdYB1Qo9IXw=='
+    'HTTP_ORIGIN' => 'http://fblog.com'
+    'HTTP_ACCEPT' => '*/*'
+    'CONTENT_LENGTH' => '6966'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'fblog.com'
+    'REDIRECT_STATUS' => '200'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1497078696.2064
+    'REQUEST_TIME' => 1497078696
+]
+2017-06-10 07:12:39 [127.0.0.1][560][su2vfleboji6rdgli20l0b8ug6][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "assets/c418a0ef/images/bg.jpg". in D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('assets/c418a0ef...', Array)
+#1 D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\phpstudy\WWW\yiiblog\frontend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: é¡µé¢æœªæ‰¾åˆ°ã€‚ in D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\phpstudy\WWW\yiiblog\frontend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2017-06-10 07:12:39 [127.0.0.1][560][su2vfleboji6rdgli20l0b8ug6][info][application] $_COOKIE = [
+    '_csrf' => '65f2fef347f083bbba9816d579140721d97cb8725eba6e2b3bbc81a26f959007a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ø–¢²µT~5=C	Øbâ¬ÀØ¨k–·èN‹<EŸ)%\";}'
+    'PHPSESSID' => 'su2vfleboji6rdgli20l0b8ug6'
+    '_identity' => '6579447d737be37d8ea6acc0c4c50fe93fbb7104894e27e9727b78711d23cfd4a:2:{i:0;s:9:\"_identity\";i:1;s:48:\"[560,\"VmDCPeYZjst2-4Std4Ed0WndREQ9D5vq\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 560
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\Program Files\\Git\\cmd;D:\\phpstudy\\php70n;C:\\ProgramData\\ComposerSetup\\bin;D:\\Program Files\\nodejs\\;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\npm'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php70n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1912'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/assets/c418a0ef/images/bg.jpg'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REDIRECT_URL' => '/assets/c418a0ef/images/bg.jpg'
+    'REMOTE_PORT' => '57823'
+    'SCRIPT_FILENAME' => 'D:/phpstudy/WWW/yiiblog/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpstudy/WWW/yiiblog/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpstudy/WWW/yiiblog/frontend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'fblog.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => '_csrf=65f2fef347f083bbba9816d579140721d97cb8725eba6e2b3bbc81a26f959007a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22%F8%96%A2%B2%05%B5T%7E5%0F%3DC%09%D8b%E2%AC%C0%D8%A8k%96%B7%E8N%7F%8B%3CE%9F%29%25%22%3B%7D; PHPSESSID=su2vfleboji6rdgli20l0b8ug6; _identity=6579447d737be37d8ea6acc0c4c50fe93fbb7104894e27e9727b78711d23cfd4a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A48%3A%22%5B560%2C%22VmDCPeYZjst2-4Std4Ed0WndREQ9D5vq%22%2C2592000%5D%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://fblog.com/assets/c418a0ef/css/upload.css'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.86 Safari/537.36'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'fblog.com'
+    'REDIRECT_STATUS' => '200'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1497078759.6746
+    'REQUEST_TIME' => 1497078759
+]
+2017-06-10 07:12:46 [127.0.0.1][-][-][error][yii\base\ErrorException:2] yii\base\ErrorException: rand() expects parameter 2 to be integer, float given in D:\phpstudy\WWW\yiiblog\common\widgets\file_upload\Uploader.php:255
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'rand() expects ...', 'D:\\phpstudy\\WWW...', 255, Array)
+#1 D:\phpstudy\WWW\yiiblog\common\widgets\file_upload\Uploader.php(255): rand(1, 10000000000)
+#2 D:\phpstudy\WWW\yiiblog\common\widgets\file_upload\Uploader.php(88): common\widgets\file_upload\Uploader->getFullName()
+#3 D:\phpstudy\WWW\yiiblog\common\widgets\file_upload\Uploader.php(60): common\widgets\file_upload\Uploader->upFile()
+#4 D:\phpstudy\WWW\yiiblog\common\widgets\file_upload\UploadAction.php(83): common\widgets\file_upload\Uploader->__construct('upfile', Array, 'upload')
+#5 D:\phpstudy\WWW\yiiblog\common\widgets\file_upload\UploadAction.php(42): common\widgets\file_upload\UploadAction->ActUpload()
+#6 [internal function]: common\widgets\file_upload\UploadAction->run()
+#7 D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\base\Action.php(94): call_user_func_array(Array, Array)
+#8 D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\Action->runWithParams(Array)
+#9 D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('upload', Array)
+#10 D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('post/upload', Array)
+#11 D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 D:\phpstudy\WWW\yiiblog\frontend\web\index.php(18): yii\base\Application->run()
+#13 {main}
+2017-06-10 07:12:46 [127.0.0.1][-][-][info][application] $_GET = [
+    'action' => 'uploadimage'
+]
+
+$_FILES = [
+    'upfile' => [
+        'name' => 'small.jpg'
+        'type' => 'image/jpeg'
+        'tmp_name' => 'C:\\Windows\\php84E2.tmp'
+        'error' => 0
+        'size' => 6781
+    ]
+]
+
+$_COOKIE = [
+    '_csrf' => '65f2fef347f083bbba9816d579140721d97cb8725eba6e2b3bbc81a26f959007a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ø–¢²µT~5=C	Øbâ¬ÀØ¨k–·èN‹<EŸ)%\";}'
+    'PHPSESSID' => 'su2vfleboji6rdgli20l0b8ug6'
+    '_identity' => '6579447d737be37d8ea6acc0c4c50fe93fbb7104894e27e9727b78711d23cfd4a:2:{i:0;s:9:\"_identity\";i:1;s:48:\"[560,\"VmDCPeYZjst2-4Std4Ed0WndREQ9D5vq\",2592000]\";}'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\Program Files\\Git\\cmd;D:\\phpstudy\\php70n;C:\\ProgramData\\ComposerSetup\\bin;D:\\Program Files\\nodejs\\;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\npm'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php70n'
+    '_FCGI_SHUTDOWN_EVENT_' => '448'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/post/upload?action=uploadimage'
+    'QUERY_STRING' => 'action=uploadimage'
+    'REQUEST_METHOD' => 'POST'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REDIRECT_QUERY_STRING' => 'action=uploadimage'
+    'REDIRECT_URL' => '/post/upload'
+    'REMOTE_PORT' => '57822'
+    'SCRIPT_FILENAME' => 'D:/phpstudy/WWW/yiiblog/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpstudy/WWW/yiiblog/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpstudy/WWW/yiiblog/frontend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'fblog.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => '_csrf=65f2fef347f083bbba9816d579140721d97cb8725eba6e2b3bbc81a26f959007a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22%F8%96%A2%B2%05%B5T%7E5%0F%3DC%09%D8b%E2%AC%C0%D8%A8k%96%B7%E8N%7F%8B%3CE%9F%29%25%22%3B%7D; PHPSESSID=su2vfleboji6rdgli20l0b8ug6; _identity=6579447d737be37d8ea6acc0c4c50fe93fbb7104894e27e9727b78711d23cfd4a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A48%3A%22%5B560%2C%22VmDCPeYZjst2-4Std4Ed0WndREQ9D5vq%22%2C2592000%5D%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://fblog.com/post/create'
+    'CONTENT_TYPE' => 'multipart/form-data; boundary=----WebKitFormBoundaryMNbudMgQuSQLhy3Z'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.86 Safari/537.36'
+    'HTTP_X_CSRF_TOKEN' => '1mDw59lgkw2ZzLTQwTEoBKRNXID_THpyTAtdYYwC-YAu9lJV3NXHc6zDiZPI6UrmCI2EKJTazZoCdNZdyZ3QpQ=='
+    'HTTP_ORIGIN' => 'http://fblog.com'
+    'HTTP_ACCEPT' => '*/*'
+    'CONTENT_LENGTH' => '6966'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'fblog.com'
+    'REDIRECT_STATUS' => '200'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1497078766.1531
+    'REQUEST_TIME' => 1497078766
+]
+2017-06-10 07:14:02 [127.0.0.1][-][-][error][yii\base\ErrorException:2] yii\base\ErrorException: rand() expects parameter 2 to be integer, float given in D:\phpstudy\WWW\yiiblog\common\widgets\ueditor\Uploader.php:249
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'rand() expects ...', 'D:\\phpstudy\\WWW...', 249, Array)
+#1 D:\phpstudy\WWW\yiiblog\common\widgets\ueditor\Uploader.php(249): rand(1, 10000000000)
+#2 D:\phpstudy\WWW\yiiblog\common\widgets\ueditor\Uploader.php(82): common\widgets\ueditor\Uploader->getFullName()
+#3 D:\phpstudy\WWW\yiiblog\common\widgets\ueditor\Uploader.php(54): common\widgets\ueditor\Uploader->upFile()
+#4 D:\phpstudy\WWW\yiiblog\common\widgets\ueditor\UeditorAction.php(119): common\widgets\ueditor\Uploader->__construct('upfile', Array, 'upload')
+#5 D:\phpstudy\WWW\yiiblog\common\widgets\ueditor\UeditorAction.php(43): common\widgets\ueditor\UeditorAction->ActUpload()
+#6 [internal function]: common\widgets\ueditor\UeditorAction->run()
+#7 D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\base\Action.php(94): call_user_func_array(Array, Array)
+#8 D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\Action->runWithParams(Array)
+#9 D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('ueditor', Array)
+#10 D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('post/ueditor', Array)
+#11 D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 D:\phpstudy\WWW\yiiblog\frontend\web\index.php(18): yii\base\Application->run()
+#13 {main}
+2017-06-10 07:14:02 [127.0.0.1][-][-][info][application] $_GET = [
+    'action' => 'uploadimage'
+]
+
+$_FILES = [
+    'upfile' => [
+        'name' => 'small.jpg'
+        'type' => 'image/jpeg'
+        'tmp_name' => 'C:\\Windows\\phpAF2D.tmp'
+        'error' => 0
+        'size' => 6781
+    ]
+]
+
+$_COOKIE = [
+    '_csrf' => '65f2fef347f083bbba9816d579140721d97cb8725eba6e2b3bbc81a26f959007a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ø–¢²µT~5=C	Øbâ¬ÀØ¨k–·èN‹<EŸ)%\";}'
+    'PHPSESSID' => 'su2vfleboji6rdgli20l0b8ug6'
+    '_identity' => '6579447d737be37d8ea6acc0c4c50fe93fbb7104894e27e9727b78711d23cfd4a:2:{i:0;s:9:\"_identity\";i:1;s:48:\"[560,\"VmDCPeYZjst2-4Std4Ed0WndREQ9D5vq\",2592000]\";}'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\Program Files\\Git\\cmd;D:\\phpstudy\\php70n;C:\\ProgramData\\ComposerSetup\\bin;D:\\Program Files\\nodejs\\;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\npm'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php70n'
+    '_FCGI_SHUTDOWN_EVENT_' => '448'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/post/ueditor?action=uploadimage'
+    'QUERY_STRING' => 'action=uploadimage'
+    'REQUEST_METHOD' => 'POST'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REDIRECT_QUERY_STRING' => 'action=uploadimage'
+    'REDIRECT_URL' => '/post/ueditor'
+    'REMOTE_PORT' => '57858'
+    'SCRIPT_FILENAME' => 'D:/phpstudy/WWW/yiiblog/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpstudy/WWW/yiiblog/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpstudy/WWW/yiiblog/frontend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'fblog.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => '_csrf=65f2fef347f083bbba9816d579140721d97cb8725eba6e2b3bbc81a26f959007a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22%F8%96%A2%B2%05%B5T%7E5%0F%3DC%09%D8b%E2%AC%C0%D8%A8k%96%B7%E8N%7F%8B%3CE%9F%29%25%22%3B%7D; PHPSESSID=su2vfleboji6rdgli20l0b8ug6; _identity=6579447d737be37d8ea6acc0c4c50fe93fbb7104894e27e9727b78711d23cfd4a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A48%3A%22%5B560%2C%22VmDCPeYZjst2-4Std4Ed0WndREQ9D5vq%22%2C2592000%5D%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'CONTENT_TYPE' => 'multipart/form-data; boundary=----WebKitFormBoundary1enU8WCiMj8ALJll'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.86 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ORIGIN' => 'null'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'CONTENT_LENGTH' => '6966'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'fblog.com'
+    'REDIRECT_STATUS' => '200'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1497078842.5155
+    'REQUEST_TIME' => 1497078842
+]
+2017-06-10 07:14:38 [127.0.0.1][-][-][error][yii\base\ErrorException:2] yii\base\ErrorException: rand() expects parameter 2 to be integer, float given in D:\phpstudy\WWW\yiiblog\common\widgets\file_upload\Uploader.php:255
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'rand() expects ...', 'D:\\phpstudy\\WWW...', 255, Array)
+#1 D:\phpstudy\WWW\yiiblog\common\widgets\file_upload\Uploader.php(255): rand(1, 10000000000)
+#2 D:\phpstudy\WWW\yiiblog\common\widgets\file_upload\Uploader.php(88): common\widgets\file_upload\Uploader->getFullName()
+#3 D:\phpstudy\WWW\yiiblog\common\widgets\file_upload\Uploader.php(60): common\widgets\file_upload\Uploader->upFile()
+#4 D:\phpstudy\WWW\yiiblog\common\widgets\file_upload\UploadAction.php(83): common\widgets\file_upload\Uploader->__construct('upfile', Array, 'upload')
+#5 D:\phpstudy\WWW\yiiblog\common\widgets\file_upload\UploadAction.php(42): common\widgets\file_upload\UploadAction->ActUpload()
+#6 [internal function]: common\widgets\file_upload\UploadAction->run()
+#7 D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\base\Action.php(94): call_user_func_array(Array, Array)
+#8 D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\Action->runWithParams(Array)
+#9 D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('upload', Array)
+#10 D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('post/upload', Array)
+#11 D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 D:\phpstudy\WWW\yiiblog\frontend\web\index.php(18): yii\base\Application->run()
+#13 {main}
+2017-06-10 07:14:38 [127.0.0.1][-][-][info][application] $_GET = [
+    'action' => 'uploadimage'
+]
+
+$_FILES = [
+    'upfile' => [
+        'name' => 'small.jpg'
+        'type' => 'image/jpeg'
+        'tmp_name' => 'C:\\Windows\\php3C40.tmp'
+        'error' => 0
+        'size' => 6781
+    ]
+]
+
+$_COOKIE = [
+    '_csrf' => '65f2fef347f083bbba9816d579140721d97cb8725eba6e2b3bbc81a26f959007a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ø–¢²µT~5=C	Øbâ¬ÀØ¨k–·èN‹<EŸ)%\";}'
+    'PHPSESSID' => 'su2vfleboji6rdgli20l0b8ug6'
+    '_identity' => '6579447d737be37d8ea6acc0c4c50fe93fbb7104894e27e9727b78711d23cfd4a:2:{i:0;s:9:\"_identity\";i:1;s:48:\"[560,\"VmDCPeYZjst2-4Std4Ed0WndREQ9D5vq\",2592000]\";}'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\Program Files\\Git\\cmd;D:\\phpstudy\\php70n;C:\\ProgramData\\ComposerSetup\\bin;D:\\Program Files\\nodejs\\;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\npm'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php70n'
+    '_FCGI_SHUTDOWN_EVENT_' => '448'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/post/upload?action=uploadimage'
+    'QUERY_STRING' => 'action=uploadimage'
+    'REQUEST_METHOD' => 'POST'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REDIRECT_QUERY_STRING' => 'action=uploadimage'
+    'REDIRECT_URL' => '/post/upload'
+    'REMOTE_PORT' => '57913'
+    'SCRIPT_FILENAME' => 'D:/phpstudy/WWW/yiiblog/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpstudy/WWW/yiiblog/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpstudy/WWW/yiiblog/frontend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'fblog.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => '_csrf=65f2fef347f083bbba9816d579140721d97cb8725eba6e2b3bbc81a26f959007a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22%F8%96%A2%B2%05%B5T%7E5%0F%3DC%09%D8b%E2%AC%C0%D8%A8k%96%B7%E8N%7F%8B%3CE%9F%29%25%22%3B%7D; PHPSESSID=su2vfleboji6rdgli20l0b8ug6; _identity=6579447d737be37d8ea6acc0c4c50fe93fbb7104894e27e9727b78711d23cfd4a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A48%3A%22%5B560%2C%22VmDCPeYZjst2-4Std4Ed0WndREQ9D5vq%22%2C2592000%5D%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://fblog.com/post/create'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_ACCEPT' => '*/*'
+    'CONTENT_TYPE' => 'multipart/form-data; boundary=----WebKitFormBoundaryu7yeGl1OBCvARTGa'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.86 Safari/537.36'
+    'HTTP_X_CSRF_TOKEN' => '1mDw59lgkw2ZzLTQwTEoBKRNXID_THpyTAtdYYwC-YAu9lJV3NXHc6zDiZPI6UrmCI2EKJTazZoCdNZdyZ3QpQ=='
+    'HTTP_ORIGIN' => 'http://fblog.com'
+    'CONTENT_LENGTH' => '6966'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'fblog.com'
+    'REDIRECT_STATUS' => '200'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1497078878.6328
+    'REQUEST_TIME' => 1497078878
+]
+2017-06-10 07:14:57 [127.0.0.1][-][-][error][yii\base\ErrorException:2] yii\base\ErrorException: rand() expects parameter 2 to be integer, float given in D:\phpstudy\WWW\yiiblog\common\widgets\ueditor\Uploader.php:249
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'rand() expects ...', 'D:\\phpstudy\\WWW...', 249, Array)
+#1 D:\phpstudy\WWW\yiiblog\common\widgets\ueditor\Uploader.php(249): rand(1, 10000000000)
+#2 D:\phpstudy\WWW\yiiblog\common\widgets\ueditor\Uploader.php(82): common\widgets\ueditor\Uploader->getFullName()
+#3 D:\phpstudy\WWW\yiiblog\common\widgets\ueditor\Uploader.php(54): common\widgets\ueditor\Uploader->upFile()
+#4 D:\phpstudy\WWW\yiiblog\common\widgets\ueditor\UeditorAction.php(119): common\widgets\ueditor\Uploader->__construct('upfile', Array, 'upload')
+#5 D:\phpstudy\WWW\yiiblog\common\widgets\ueditor\UeditorAction.php(43): common\widgets\ueditor\UeditorAction->ActUpload()
+#6 [internal function]: common\widgets\ueditor\UeditorAction->run()
+#7 D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\base\Action.php(94): call_user_func_array(Array, Array)
+#8 D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\Action->runWithParams(Array)
+#9 D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('ueditor', Array)
+#10 D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('post/ueditor', Array)
+#11 D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 D:\phpstudy\WWW\yiiblog\frontend\web\index.php(18): yii\base\Application->run()
+#13 {main}
+2017-06-10 07:14:57 [127.0.0.1][-][-][info][application] $_GET = [
+    'action' => 'uploadimage'
+]
+
+$_FILES = [
+    'upfile' => [
+        'name' => 'small.jpg'
+        'type' => 'image/jpeg'
+        'tmp_name' => 'C:\\Windows\\php86E7.tmp'
+        'error' => 0
+        'size' => 6781
+    ]
+]
+
+$_COOKIE = [
+    '_csrf' => '65f2fef347f083bbba9816d579140721d97cb8725eba6e2b3bbc81a26f959007a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ø–¢²µT~5=C	Øbâ¬ÀØ¨k–·èN‹<EŸ)%\";}'
+    'PHPSESSID' => 'su2vfleboji6rdgli20l0b8ug6'
+    '_identity' => '6579447d737be37d8ea6acc0c4c50fe93fbb7104894e27e9727b78711d23cfd4a:2:{i:0;s:9:\"_identity\";i:1;s:48:\"[560,\"VmDCPeYZjst2-4Std4Ed0WndREQ9D5vq\",2592000]\";}'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\Program Files\\Git\\cmd;D:\\phpstudy\\php70n;C:\\ProgramData\\ComposerSetup\\bin;D:\\Program Files\\nodejs\\;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\npm'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php70n'
+    '_FCGI_SHUTDOWN_EVENT_' => '448'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/post/ueditor?action=uploadimage'
+    'QUERY_STRING' => 'action=uploadimage'
+    'REQUEST_METHOD' => 'POST'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REDIRECT_QUERY_STRING' => 'action=uploadimage'
+    'REDIRECT_URL' => '/post/ueditor'
+    'REMOTE_PORT' => '57942'
+    'SCRIPT_FILENAME' => 'D:/phpstudy/WWW/yiiblog/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpstudy/WWW/yiiblog/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpstudy/WWW/yiiblog/frontend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'fblog.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => '_csrf=65f2fef347f083bbba9816d579140721d97cb8725eba6e2b3bbc81a26f959007a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22%F8%96%A2%B2%05%B5T%7E5%0F%3DC%09%D8b%E2%AC%C0%D8%A8k%96%B7%E8N%7F%8B%3CE%9F%29%25%22%3B%7D; PHPSESSID=su2vfleboji6rdgli20l0b8ug6; _identity=6579447d737be37d8ea6acc0c4c50fe93fbb7104894e27e9727b78711d23cfd4a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A48%3A%22%5B560%2C%22VmDCPeYZjst2-4Std4Ed0WndREQ9D5vq%22%2C2592000%5D%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'CONTENT_TYPE' => 'multipart/form-data; boundary=----WebKitFormBoundaryE5Tb3Yiy1PORyE0A'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.86 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ORIGIN' => 'null'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'CONTENT_LENGTH' => '6966'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'fblog.com'
+    'REDIRECT_STATUS' => '200'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1497078897.7374
+    'REQUEST_TIME' => 1497078897
+]
+2017-06-10 15:17:59 [127.0.0.1][-][-][error][yii\base\ErrorException:32] exception 'yii\base\ErrorException' with message 'PHP Startup: ' in Unknown:0
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-06-10 15:17:58 [127.0.0.1][-][-][info][application] $_GET = [
+    'action' => 'uploadimage'
+]
+
+$_FILES = [
+    'upfile' => [
+        'name' => 'small.jpg'
+        'type' => 'image/jpeg'
+        'tmp_name' => 'C:\\Windows\\php4977.tmp'
+        'error' => 0
+        'size' => 6781
+    ]
+]
+
+$_COOKIE = [
+    '_csrf' => '65f2fef347f083bbba9816d579140721d97cb8725eba6e2b3bbc81a26f959007a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ø–¢²µT~5=C	Øbâ¬ÀØ¨k–·èN‹<EŸ)%\";}'
+    'PHPSESSID' => 'su2vfleboji6rdgli20l0b8ug6'
+    '_identity' => '6579447d737be37d8ea6acc0c4c50fe93fbb7104894e27e9727b78711d23cfd4a:2:{i:0;s:9:\"_identity\";i:1;s:48:\"[560,\"VmDCPeYZjst2-4Std4Ed0WndREQ9D5vq\",2592000]\";}'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\Program Files\\Git\\cmd;D:\\phpstudy\\php70n;C:\\ProgramData\\ComposerSetup\\bin;D:\\Program Files\\nodejs\\;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\npm'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1900'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/post/ueditor?action=uploadimage'
+    'QUERY_STRING' => 'action=uploadimage'
+    'REQUEST_METHOD' => 'POST'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REDIRECT_QUERY_STRING' => 'action=uploadimage'
+    'REDIRECT_URL' => '/post/ueditor'
+    'REMOTE_PORT' => '58183'
+    'SCRIPT_FILENAME' => 'D:/phpstudy/WWW/yiiblog/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpstudy/WWW/yiiblog/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpstudy/WWW/yiiblog/frontend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'fblog.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => '_csrf=65f2fef347f083bbba9816d579140721d97cb8725eba6e2b3bbc81a26f959007a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22%F8%96%A2%B2%05%B5T%7E5%0F%3DC%09%D8b%E2%AC%C0%D8%A8k%96%B7%E8N%7F%8B%3CE%9F%29%25%22%3B%7D; PHPSESSID=su2vfleboji6rdgli20l0b8ug6; _identity=6579447d737be37d8ea6acc0c4c50fe93fbb7104894e27e9727b78711d23cfd4a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A48%3A%22%5B560%2C%22VmDCPeYZjst2-4Std4Ed0WndREQ9D5vq%22%2C2592000%5D%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'CONTENT_TYPE' => 'multipart/form-data; boundary=----WebKitFormBoundaryyBoYoyYMBO9vThxB'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.86 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ORIGIN' => 'null'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'CONTENT_LENGTH' => '6966'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'fblog.com'
+    'REDIRECT_STATUS' => '200'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1497079078.6268
+    'REQUEST_TIME' => 1497079078
+]
+2017-06-10 15:19:09 [127.0.0.1][-][-][error][yii\base\ErrorException:32] exception 'yii\base\ErrorException' with message 'PHP Startup: ' in Unknown:0
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-06-10 15:19:09 [127.0.0.1][-][-][info][application] $_GET = [
+    'action' => 'uploadimage'
+]
+
+$_FILES = [
+    'upfile' => [
+        'name' => 'small.jpg'
+        'type' => 'image/jpeg'
+        'tmp_name' => 'C:\\Windows\\php5F95.tmp'
+        'error' => 0
+        'size' => 6781
+    ]
+]
+
+$_COOKIE = [
+    '_csrf' => '65f2fef347f083bbba9816d579140721d97cb8725eba6e2b3bbc81a26f959007a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ø–¢²µT~5=C	Øbâ¬ÀØ¨k–·èN‹<EŸ)%\";}'
+    'PHPSESSID' => 'su2vfleboji6rdgli20l0b8ug6'
+    '_identity' => '6579447d737be37d8ea6acc0c4c50fe93fbb7104894e27e9727b78711d23cfd4a:2:{i:0;s:9:\"_identity\";i:1;s:48:\"[560,\"VmDCPeYZjst2-4Std4Ed0WndREQ9D5vq\",2592000]\";}'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\Program Files\\Git\\cmd;D:\\phpstudy\\php70n;C:\\ProgramData\\ComposerSetup\\bin;D:\\Program Files\\nodejs\\;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\npm'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1904'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/post/ueditor?action=uploadimage'
+    'QUERY_STRING' => 'action=uploadimage'
+    'REQUEST_METHOD' => 'POST'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REDIRECT_QUERY_STRING' => 'action=uploadimage'
+    'REDIRECT_URL' => '/post/ueditor'
+    'REMOTE_PORT' => '58283'
+    'SCRIPT_FILENAME' => 'D:/phpstudy/WWW/yiiblog/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpstudy/WWW/yiiblog/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpstudy/WWW/yiiblog/frontend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'fblog.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => '_csrf=65f2fef347f083bbba9816d579140721d97cb8725eba6e2b3bbc81a26f959007a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22%F8%96%A2%B2%05%B5T%7E5%0F%3DC%09%D8b%E2%AC%C0%D8%A8k%96%B7%E8N%7F%8B%3CE%9F%29%25%22%3B%7D; PHPSESSID=su2vfleboji6rdgli20l0b8ug6; _identity=6579447d737be37d8ea6acc0c4c50fe93fbb7104894e27e9727b78711d23cfd4a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A48%3A%22%5B560%2C%22VmDCPeYZjst2-4Std4Ed0WndREQ9D5vq%22%2C2592000%5D%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'CONTENT_TYPE' => 'multipart/form-data; boundary=----WebKitFormBoundaryG8HAmS7GcJyxkVxn'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.86 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ORIGIN' => 'null'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'CONTENT_LENGTH' => '6966'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'fblog.com'
+    'REDIRECT_STATUS' => '200'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1497079149.8235
+    'REQUEST_TIME' => 1497079149
+]
+2017-06-10 15:20:52 [127.0.0.1][560][su2vfleboji6rdgli20l0b8ug6][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "assets/c418a0ef/images/bg.jpg".' in D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('assets/c418a0ef...', Array)
+#1 D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\phpstudy\WWW\yiiblog\frontend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'é¡µé¢æœªæ‰¾åˆ°ã€‚' in D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\phpstudy\WWW\yiiblog\frontend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2017-06-10 15:20:52 [127.0.0.1][560][su2vfleboji6rdgli20l0b8ug6][info][application] $_COOKIE = [
+    '_csrf' => '65f2fef347f083bbba9816d579140721d97cb8725eba6e2b3bbc81a26f959007a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ø–¢²µT~5=C	Øbâ¬ÀØ¨k–·èN‹<EŸ)%\";}'
+    'PHPSESSID' => 'su2vfleboji6rdgli20l0b8ug6'
+    '_identity' => '6579447d737be37d8ea6acc0c4c50fe93fbb7104894e27e9727b78711d23cfd4a:2:{i:0;s:9:\"_identity\";i:1;s:48:\"[560,\"VmDCPeYZjst2-4Std4Ed0WndREQ9D5vq\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 560
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\Program Files\\Git\\cmd;D:\\phpstudy\\php70n;C:\\ProgramData\\ComposerSetup\\bin;D:\\Program Files\\nodejs\\;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\npm'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '448'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/assets/c418a0ef/images/bg.jpg'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REDIRECT_URL' => '/assets/c418a0ef/images/bg.jpg'
+    'REMOTE_PORT' => '58437'
+    'SCRIPT_FILENAME' => 'D:/phpstudy/WWW/yiiblog/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpstudy/WWW/yiiblog/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpstudy/WWW/yiiblog/frontend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'fblog.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => '_csrf=65f2fef347f083bbba9816d579140721d97cb8725eba6e2b3bbc81a26f959007a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22%F8%96%A2%B2%05%B5T%7E5%0F%3DC%09%D8b%E2%AC%C0%D8%A8k%96%B7%E8N%7F%8B%3CE%9F%29%25%22%3B%7D; PHPSESSID=su2vfleboji6rdgli20l0b8ug6; _identity=6579447d737be37d8ea6acc0c4c50fe93fbb7104894e27e9727b78711d23cfd4a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A48%3A%22%5B560%2C%22VmDCPeYZjst2-4Std4Ed0WndREQ9D5vq%22%2C2592000%5D%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://fblog.com/assets/c418a0ef/css/upload.css'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.86 Safari/537.36'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'fblog.com'
+    'REDIRECT_STATUS' => '200'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1497079252.2021
+    'REQUEST_TIME' => 1497079252
+]
+2017-06-10 15:21:41 [127.0.0.1][560][su2vfleboji6rdgli20l0b8ug6][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected 'class' (T_CLASS), expecting ',' or ';'' in D:\phpstudy\WWW\yiiblog\common\models\TagModel.php:15
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-06-10 15:21:40 [127.0.0.1][560][su2vfleboji6rdgli20l0b8ug6][info][application] $_POST = [
+    '_csrf' => 'sZ0iXrZt3hwMW82NK7qNDJ4n9xZPBc7L5Ke9oaGqjUNJC4Dss9iKYjlU8M4iYu_uMucvviSTeSOq2Dad5DWkZg=='
+    'PostForm' => [
+        'title' => '0610æµ‹è¯•æ–‡ç« '
+        'cat_id' => '0'
+        'label_img' => '/image/20170610/1497079266108659.jpg'
+        'content' => '<p><img src=\"/image/20170610/1497079260111469.jpg\" title=\"1497079260111469.jpg\" alt=\"small.jpg\"/>å·¥</p>'
+        'tags' => [
+            0 => 'æ ‡ç­¾1'
+        ]
+    ]
+]
+
+$_COOKIE = [
+    '_csrf' => '65f2fef347f083bbba9816d579140721d97cb8725eba6e2b3bbc81a26f959007a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ø–¢²µT~5=C	Øbâ¬ÀØ¨k–·èN‹<EŸ)%\";}'
+    'PHPSESSID' => 'su2vfleboji6rdgli20l0b8ug6'
+    '_identity' => '6579447d737be37d8ea6acc0c4c50fe93fbb7104894e27e9727b78711d23cfd4a:2:{i:0;s:9:\"_identity\";i:1;s:48:\"[560,\"VmDCPeYZjst2-4Std4Ed0WndREQ9D5vq\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 560
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\Program Files\\Git\\cmd;D:\\phpstudy\\php70n;C:\\ProgramData\\ComposerSetup\\bin;D:\\Program Files\\nodejs\\;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\npm'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1904'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/post/create'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'POST'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REDIRECT_URL' => '/post/create'
+    'REMOTE_PORT' => '58493'
+    'SCRIPT_FILENAME' => 'D:/phpstudy/WWW/yiiblog/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpstudy/WWW/yiiblog/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpstudy/WWW/yiiblog/frontend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'fblog.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => '_csrf=65f2fef347f083bbba9816d579140721d97cb8725eba6e2b3bbc81a26f959007a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22%F8%96%A2%B2%05%B5T%7E5%0F%3DC%09%D8b%E2%AC%C0%D8%A8k%96%B7%E8N%7F%8B%3CE%9F%29%25%22%3B%7D; PHPSESSID=su2vfleboji6rdgli20l0b8ug6; _identity=6579447d737be37d8ea6acc0c4c50fe93fbb7104894e27e9727b78711d23cfd4a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A48%3A%22%5B560%2C%22VmDCPeYZjst2-4Std4Ed0WndREQ9D5vq%22%2C2592000%5D%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://fblog.com/post/create'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.86 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ORIGIN' => 'http://fblog.com'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'CONTENT_LENGTH' => '467'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'fblog.com'
+    'REDIRECT_STATUS' => '200'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1497079300.5387
+    'REQUEST_TIME' => 1497079300
+]
+2017-06-10 15:22:15 [127.0.0.1][560][su2vfleboji6rdgli20l0b8ug6][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "assets/c418a0ef/images/bg.jpg".' in D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('assets/c418a0ef...', Array)
+#1 D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\phpstudy\WWW\yiiblog\frontend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'é¡µé¢æœªæ‰¾åˆ°ã€‚' in D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\phpstudy\WWW\yiiblog\frontend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2017-06-10 15:22:15 [127.0.0.1][560][su2vfleboji6rdgli20l0b8ug6][info][application] $_COOKIE = [
+    '_csrf' => '65f2fef347f083bbba9816d579140721d97cb8725eba6e2b3bbc81a26f959007a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ø–¢²µT~5=C	Øbâ¬ÀØ¨k–·èN‹<EŸ)%\";}'
+    'PHPSESSID' => 'su2vfleboji6rdgli20l0b8ug6'
+    '_identity' => '6579447d737be37d8ea6acc0c4c50fe93fbb7104894e27e9727b78711d23cfd4a:2:{i:0;s:9:\"_identity\";i:1;s:48:\"[560,\"VmDCPeYZjst2-4Std4Ed0WndREQ9D5vq\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 560
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\Program Files\\Git\\cmd;D:\\phpstudy\\php70n;C:\\ProgramData\\ComposerSetup\\bin;D:\\Program Files\\nodejs\\;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\npm'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1928'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/assets/c418a0ef/images/bg.jpg'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REDIRECT_URL' => '/assets/c418a0ef/images/bg.jpg'
+    'REMOTE_PORT' => '58497'
+    'SCRIPT_FILENAME' => 'D:/phpstudy/WWW/yiiblog/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpstudy/WWW/yiiblog/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpstudy/WWW/yiiblog/frontend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'fblog.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => '_csrf=65f2fef347f083bbba9816d579140721d97cb8725eba6e2b3bbc81a26f959007a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22%F8%96%A2%B2%05%B5T%7E5%0F%3DC%09%D8b%E2%AC%C0%D8%A8k%96%B7%E8N%7F%8B%3CE%9F%29%25%22%3B%7D; PHPSESSID=su2vfleboji6rdgli20l0b8ug6; _identity=6579447d737be37d8ea6acc0c4c50fe93fbb7104894e27e9727b78711d23cfd4a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A48%3A%22%5B560%2C%22VmDCPeYZjst2-4Std4Ed0WndREQ9D5vq%22%2C2592000%5D%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://fblog.com/assets/c418a0ef/css/upload.css'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.86 Safari/537.36'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'fblog.com'
+    'REDIRECT_STATUS' => '200'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1497079335.0185
+    'REQUEST_TIME' => 1497079335
+]
+2017-06-10 15:22:50 [127.0.0.1][560][su2vfleboji6rdgli20l0b8ug6][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "assets/c418a0ef/images/bg.jpg".' in D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('assets/c418a0ef...', Array)
+#1 D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\phpstudy\WWW\yiiblog\frontend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'é¡µé¢æœªæ‰¾åˆ°ã€‚' in D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\phpstudy\WWW\yiiblog\frontend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2017-06-10 15:22:49 [127.0.0.1][560][su2vfleboji6rdgli20l0b8ug6][info][application] $_COOKIE = [
+    '_csrf' => '65f2fef347f083bbba9816d579140721d97cb8725eba6e2b3bbc81a26f959007a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ø–¢²µT~5=C	Øbâ¬ÀØ¨k–·èN‹<EŸ)%\";}'
+    'PHPSESSID' => 'su2vfleboji6rdgli20l0b8ug6'
+    '_identity' => '6579447d737be37d8ea6acc0c4c50fe93fbb7104894e27e9727b78711d23cfd4a:2:{i:0;s:9:\"_identity\";i:1;s:48:\"[560,\"VmDCPeYZjst2-4Std4Ed0WndREQ9D5vq\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 560
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\Program Files\\Git\\cmd;D:\\phpstudy\\php70n;C:\\ProgramData\\ComposerSetup\\bin;D:\\Program Files\\nodejs\\;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\npm'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '448'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/assets/c418a0ef/images/bg.jpg'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REDIRECT_URL' => '/assets/c418a0ef/images/bg.jpg'
+    'REMOTE_PORT' => '58520'
+    'SCRIPT_FILENAME' => 'D:/phpstudy/WWW/yiiblog/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpstudy/WWW/yiiblog/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpstudy/WWW/yiiblog/frontend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'fblog.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => '_csrf=65f2fef347f083bbba9816d579140721d97cb8725eba6e2b3bbc81a26f959007a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22%F8%96%A2%B2%05%B5T%7E5%0F%3DC%09%D8b%E2%AC%C0%D8%A8k%96%B7%E8N%7F%8B%3CE%9F%29%25%22%3B%7D; PHPSESSID=su2vfleboji6rdgli20l0b8ug6; _identity=6579447d737be37d8ea6acc0c4c50fe93fbb7104894e27e9727b78711d23cfd4a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A48%3A%22%5B560%2C%22VmDCPeYZjst2-4Std4Ed0WndREQ9D5vq%22%2C2592000%5D%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://fblog.com/assets/c418a0ef/css/upload.css'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.86 Safari/537.36'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'fblog.com'
+    'REDIRECT_STATUS' => '200'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1497079369.83
+    'REQUEST_TIME' => 1497079369
+]
+2017-06-10 15:23:18 [127.0.0.1][560][su2vfleboji6rdgli20l0b8ug6][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: post/view' in D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\base\Controller.php:127
+Stack trace:
+#0 D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('view', Array)
+#1 D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('post/view', Array)
+#2 D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 D:\phpstudy\WWW\yiiblog\frontend\web\index.php(18): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'é¡µé¢æœªæ‰¾åˆ°ã€‚' in D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\phpstudy\WWW\yiiblog\frontend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2017-06-10 15:23:18 [127.0.0.1][560][su2vfleboji6rdgli20l0b8ug6][info][application] $_GET = [
+    'id' => '2'
+]
+
+$_COOKIE = [
+    '_csrf' => '65f2fef347f083bbba9816d579140721d97cb8725eba6e2b3bbc81a26f959007a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ø–¢²µT~5=C	Øbâ¬ÀØ¨k–·èN‹<EŸ)%\";}'
+    'PHPSESSID' => 'su2vfleboji6rdgli20l0b8ug6'
+    '_identity' => '6579447d737be37d8ea6acc0c4c50fe93fbb7104894e27e9727b78711d23cfd4a:2:{i:0;s:9:\"_identity\";i:1;s:48:\"[560,\"VmDCPeYZjst2-4Std4Ed0WndREQ9D5vq\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 560
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\Program Files\\Git\\cmd;D:\\phpstudy\\php70n;C:\\ProgramData\\ComposerSetup\\bin;D:\\Program Files\\nodejs\\;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\npm'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1904'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/post/view?id=2'
+    'QUERY_STRING' => 'id=2'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REDIRECT_QUERY_STRING' => 'id=2'
+    'REDIRECT_URL' => '/post/view'
+    'REMOTE_PORT' => '58536'
+    'SCRIPT_FILENAME' => 'D:/phpstudy/WWW/yiiblog/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpstudy/WWW/yiiblog/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpstudy/WWW/yiiblog/frontend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'fblog.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => '_csrf=65f2fef347f083bbba9816d579140721d97cb8725eba6e2b3bbc81a26f959007a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22%F8%96%A2%B2%05%B5T%7E5%0F%3DC%09%D8b%E2%AC%C0%D8%A8k%96%B7%E8N%7F%8B%3CE%9F%29%25%22%3B%7D; PHPSESSID=su2vfleboji6rdgli20l0b8ug6; _identity=6579447d737be37d8ea6acc0c4c50fe93fbb7104894e27e9727b78711d23cfd4a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A48%3A%22%5B560%2C%22VmDCPeYZjst2-4Std4Ed0WndREQ9D5vq%22%2C2592000%5D%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://fblog.com/post/create'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.86 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'fblog.com'
+    'REDIRECT_STATUS' => '200'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1497079398.4866
+    'REQUEST_TIME' => 1497079398
+]
+2017-06-10 15:24:09 [127.0.0.1][560][su2vfleboji6rdgli20l0b8ug6][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "assets/c418a0ef/images/bg.jpg".' in D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('assets/c418a0ef...', Array)
+#1 D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\phpstudy\WWW\yiiblog\frontend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'é¡µé¢æœªæ‰¾åˆ°ã€‚' in D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\phpstudy\WWW\yiiblog\frontend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2017-06-10 15:24:09 [127.0.0.1][560][su2vfleboji6rdgli20l0b8ug6][info][application] $_COOKIE = [
+    '_csrf' => '65f2fef347f083bbba9816d579140721d97cb8725eba6e2b3bbc81a26f959007a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ø–¢²µT~5=C	Øbâ¬ÀØ¨k–·èN‹<EŸ)%\";}'
+    'PHPSESSID' => 'su2vfleboji6rdgli20l0b8ug6'
+    '_identity' => '6579447d737be37d8ea6acc0c4c50fe93fbb7104894e27e9727b78711d23cfd4a:2:{i:0;s:9:\"_identity\";i:1;s:48:\"[560,\"VmDCPeYZjst2-4Std4Ed0WndREQ9D5vq\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 560
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\Program Files\\Git\\cmd;D:\\phpstudy\\php70n;C:\\ProgramData\\ComposerSetup\\bin;D:\\Program Files\\nodejs\\;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\npm'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1928'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/assets/c418a0ef/images/bg.jpg'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REDIRECT_URL' => '/assets/c418a0ef/images/bg.jpg'
+    'REMOTE_PORT' => '58552'
+    'SCRIPT_FILENAME' => 'D:/phpstudy/WWW/yiiblog/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpstudy/WWW/yiiblog/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpstudy/WWW/yiiblog/frontend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'fblog.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => '_csrf=65f2fef347f083bbba9816d579140721d97cb8725eba6e2b3bbc81a26f959007a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22%F8%96%A2%B2%05%B5T%7E5%0F%3DC%09%D8b%E2%AC%C0%D8%A8k%96%B7%E8N%7F%8B%3CE%9F%29%25%22%3B%7D; PHPSESSID=su2vfleboji6rdgli20l0b8ug6; _identity=6579447d737be37d8ea6acc0c4c50fe93fbb7104894e27e9727b78711d23cfd4a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A48%3A%22%5B560%2C%22VmDCPeYZjst2-4Std4Ed0WndREQ9D5vq%22%2C2592000%5D%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://fblog.com/assets/c418a0ef/css/upload.css'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.86 Safari/537.36'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'fblog.com'
+    'REDIRECT_STATUS' => '200'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1497079449.3915
+    'REQUEST_TIME' => 1497079449
+]
+2017-06-10 15:24:35 [127.0.0.1][560][su2vfleboji6rdgli20l0b8ug6][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: post/view' in D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\base\Controller.php:127
+Stack trace:
+#0 D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('view', Array)
+#1 D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('post/view', Array)
+#2 D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 D:\phpstudy\WWW\yiiblog\frontend\web\index.php(18): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'é¡µé¢æœªæ‰¾åˆ°ã€‚' in D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\phpstudy\WWW\yiiblog\frontend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2017-06-10 15:24:35 [127.0.0.1][560][su2vfleboji6rdgli20l0b8ug6][info][application] $_GET = [
+    'id' => '3'
+]
+
+$_COOKIE = [
+    '_csrf' => '65f2fef347f083bbba9816d579140721d97cb8725eba6e2b3bbc81a26f959007a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ø–¢²µT~5=C	Øbâ¬ÀØ¨k–·èN‹<EŸ)%\";}'
+    'PHPSESSID' => 'su2vfleboji6rdgli20l0b8ug6'
+    '_identity' => '6579447d737be37d8ea6acc0c4c50fe93fbb7104894e27e9727b78711d23cfd4a:2:{i:0;s:9:\"_identity\";i:1;s:48:\"[560,\"VmDCPeYZjst2-4Std4Ed0WndREQ9D5vq\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 560
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\Program Files\\Git\\cmd;D:\\phpstudy\\php70n;C:\\ProgramData\\ComposerSetup\\bin;D:\\Program Files\\nodejs\\;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\npm'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '448'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/post/view?id=3'
+    'QUERY_STRING' => 'id=3'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REDIRECT_QUERY_STRING' => 'id=3'
+    'REDIRECT_URL' => '/post/view'
+    'REMOTE_PORT' => '58567'
+    'SCRIPT_FILENAME' => 'D:/phpstudy/WWW/yiiblog/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpstudy/WWW/yiiblog/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpstudy/WWW/yiiblog/frontend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'fblog.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => '_csrf=65f2fef347f083bbba9816d579140721d97cb8725eba6e2b3bbc81a26f959007a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22%F8%96%A2%B2%05%B5T%7E5%0F%3DC%09%D8b%E2%AC%C0%D8%A8k%96%B7%E8N%7F%8B%3CE%9F%29%25%22%3B%7D; PHPSESSID=su2vfleboji6rdgli20l0b8ug6; _identity=6579447d737be37d8ea6acc0c4c50fe93fbb7104894e27e9727b78711d23cfd4a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A48%3A%22%5B560%2C%22VmDCPeYZjst2-4Std4Ed0WndREQ9D5vq%22%2C2592000%5D%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://fblog.com/post/create'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.86 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'fblog.com'
+    'REDIRECT_STATUS' => '200'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1497079475.329
+    'REQUEST_TIME' => 1497079475
+]
+2017-06-10 15:36:28 [127.0.0.1][-][-][error][yii\base\InvalidParamException] exception 'yii\base\UnknownMethodException' with message 'Calling unknown method: common\models\RelationPostTagModel::gettag()' in D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\base\Component.php:290
+Stack trace:
+#0 D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\db\BaseActiveRecord.php(1192): yii\base\Component->__call('gettag', Array)
+#1 D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\db\BaseActiveRecord.php(1192): common\models\RelationPostTagModel->gettag()
+#2 D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\db\ActiveQueryTrait.php(200): yii\db\BaseActiveRecord->getRelation('<span class="st...')
+#3 D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\db\ActiveQueryTrait.php(167): yii\db\ActiveQuery->normalizeRelations(Object(common\models\RelationPostTagModel), '[<span class="s...')
+#4 D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\db\ActiveQuery.php(214): yii\db\ActiveQuery->findWith('[<span class="s...', '[[<span class="...')
+#5 D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\db\Query.php(214): yii\db\ActiveQuery->populate('[[<span class="...')
+#6 D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\db\ActiveQuery.php(135): yii\db\Query->all('<span class="ke...')
+#7 D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\db\ActiveRelationTrait.php(240): yii\db\ActiveQuery->all()
+#8 D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\db\ActiveQueryTrait.php(174): yii\db\ActiveQuery->populateRelation('<span class="st...', '<span class="st...')
+#9 D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\db\ActiveQuery.php(214): yii\db\ActiveQuery->findWith('[<span class="s...', '<span class="st...')
+#10 D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\db\ActiveQuery.php(296): yii\db\ActiveQuery->populate('[[<span class="...')
+#11 D:\phpstudy\WWW\yiiblog\frontend\models\PostForm.php(169): yii\db\ActiveQuery->one()
+#12 D:\phpstudy\WWW\yiiblog\frontend\controllers\PostController.php(75): frontend\models\PostForm->getViewById('<span class="st...')
+#13 [internal function]: frontend\controllers\PostController->actionView('<span class="st...')
+#14 D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array('[<span class="t...', '[<span class="s...')
+#15 D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams('[<span class="s...')
+#16 D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#17 D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#18 D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#19 D:\phpstudy\WWW\yiiblog\frontend\web\index.php(18): yii\base\Application->run()
+#20 {main}
+
+Next exception 'yii\base\InvalidParamException' with message 'common\models\RelationPostTagModel has no relation named "tag".' in D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\db\BaseActiveRecord.php:1195
+Stack trace:
+#0 D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\db\ActiveQueryTrait.php(200): yii\db\BaseActiveRecord->getRelation('<span class="st...')
+#1 D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\db\ActiveQueryTrait.php(167): yii\db\ActiveQuery->normalizeRelations(Object(common\models\RelationPostTagModel), '[<span class="s...')
+#2 D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\db\ActiveQuery.php(214): yii\db\ActiveQuery->findWith('[<span class="s...', '[[<span class="...')
+#3 D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\db\Query.php(214): yii\db\ActiveQuery->populate('[[<span class="...')
+#4 D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\db\ActiveQuery.php(135): yii\db\Query->all('<span class="ke...')
+#5 D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\db\ActiveRelationTrait.php(240): yii\db\ActiveQuery->all()
+#6 D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\db\ActiveQueryTrait.php(174): yii\db\ActiveQuery->populateRelation('<span class="st...', '<span class="st...')
+#7 D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\db\ActiveQuery.php(214): yii\db\ActiveQuery->findWith('[<span class="s...', '<span class="st...')
+#8 D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\db\ActiveQuery.php(296): yii\db\ActiveQuery->populate('[[<span class="...')
+#9 D:\phpstudy\WWW\yiiblog\frontend\models\PostForm.php(169): yii\db\ActiveQuery->one()
+#10 D:\phpstudy\WWW\yiiblog\frontend\controllers\PostController.php(75): frontend\models\PostForm->getViewById('<span class="st...')
+#11 [internal function]: frontend\controllers\PostController->actionView('<span class="st...')
+#12 D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array('[<span class="t...', '[<span class="s...')
+#13 D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams('[<span class="s...')
+#14 D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#15 D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#16 D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#17 D:\phpstudy\WWW\yiiblog\frontend\web\index.php(18): yii\base\Application->run()
+#18 {main}
+2017-06-10 15:36:26 [127.0.0.1][-][-][info][application] $_GET = [
+    'id' => '2'
+]
+
+$_COOKIE = [
+    '_csrf' => '65f2fef347f083bbba9816d579140721d97cb8725eba6e2b3bbc81a26f959007a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ø–¢²µT~5=C	Øbâ¬ÀØ¨k–·èN‹<EŸ)%\";}'
+    'PHPSESSID' => 'su2vfleboji6rdgli20l0b8ug6'
+    '_identity' => '6579447d737be37d8ea6acc0c4c50fe93fbb7104894e27e9727b78711d23cfd4a:2:{i:0;s:9:\"_identity\";i:1;s:48:\"[560,\"VmDCPeYZjst2-4Std4Ed0WndREQ9D5vq\",2592000]\";}'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\Program Files\\Git\\cmd;D:\\phpstudy\\php70n;C:\\ProgramData\\ComposerSetup\\bin;D:\\Program Files\\nodejs\\;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\npm'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1840'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/post/view?id=2'
+    'QUERY_STRING' => 'id=2'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REDIRECT_QUERY_STRING' => 'id=2'
+    'REDIRECT_URL' => '/post/view'
+    'REMOTE_PORT' => '58589'
+    'SCRIPT_FILENAME' => 'D:/phpstudy/WWW/yiiblog/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpstudy/WWW/yiiblog/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpstudy/WWW/yiiblog/frontend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'fblog.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => '_csrf=65f2fef347f083bbba9816d579140721d97cb8725eba6e2b3bbc81a26f959007a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22%F8%96%A2%B2%05%B5T%7E5%0F%3DC%09%D8b%E2%AC%C0%D8%A8k%96%B7%E8N%7F%8B%3CE%9F%29%25%22%3B%7D; PHPSESSID=su2vfleboji6rdgli20l0b8ug6; _identity=6579447d737be37d8ea6acc0c4c50fe93fbb7104894e27e9727b78711d23cfd4a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A48%3A%22%5B560%2C%22VmDCPeYZjst2-4Std4Ed0WndREQ9D5vq%22%2C2592000%5D%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.86 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'fblog.com'
+    'REDIRECT_STATUS' => '200'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1497080186.9277
+    'REQUEST_TIME' => 1497080186
+]
+2017-06-10 15:37:27 [127.0.0.1][-][-][error][yii\base\InvalidParamException] exception 'yii\base\UnknownMethodException' with message 'Calling unknown method: common\models\PostModel::get1()' in D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\base\Component.php:290
+Stack trace:
+#0 D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\db\BaseActiveRecord.php(1192): yii\base\Component->__call('get1', Array)
+#1 D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\db\BaseActiveRecord.php(1192): common\models\PostModel->get1()
+#2 D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\db\ActiveQueryTrait.php(200): yii\db\BaseActiveRecord->getRelation('<span class="st...')
+#3 D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\db\ActiveQueryTrait.php(167): yii\db\ActiveQuery->normalizeRelations(Object(common\models\PostModel), '[<span class="s...')
+#4 D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\db\ActiveQuery.php(214): yii\db\ActiveQuery->findWith('[<span class="s...', '[[<span class="...')
+#5 D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\db\ActiveQuery.php(296): yii\db\ActiveQuery->populate('[[<span class="...')
+#6 D:\phpstudy\WWW\yiiblog\frontend\models\PostForm.php(169): yii\db\ActiveQuery->one()
+#7 D:\phpstudy\WWW\yiiblog\frontend\controllers\PostController.php(75): frontend\models\PostForm->getViewById('<span class="st...')
+#8 [internal function]: frontend\controllers\PostController->actionView('<span class="st...')
+#9 D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array('[<span class="t...', '[<span class="s...')
+#10 D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams('[<span class="s...')
+#11 D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#12 D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#13 D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#14 D:\phpstudy\WWW\yiiblog\frontend\web\index.php(18): yii\base\Application->run()
+#15 {main}
+
+Next exception 'yii\base\InvalidParamException' with message 'common\models\PostModel has no relation named "1".' in D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\db\BaseActiveRecord.php:1195
+Stack trace:
+#0 D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\db\ActiveQueryTrait.php(200): yii\db\BaseActiveRecord->getRelation('<span class="st...')
+#1 D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\db\ActiveQueryTrait.php(167): yii\db\ActiveQuery->normalizeRelations(Object(common\models\PostModel), '[<span class="s...')
+#2 D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\db\ActiveQuery.php(214): yii\db\ActiveQuery->findWith('[<span class="s...', '[[<span class="...')
+#3 D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\db\ActiveQuery.php(296): yii\db\ActiveQuery->populate('[[<span class="...')
+#4 D:\phpstudy\WWW\yiiblog\frontend\models\PostForm.php(169): yii\db\ActiveQuery->one()
+#5 D:\phpstudy\WWW\yiiblog\frontend\controllers\PostController.php(75): frontend\models\PostForm->getViewById('<span class="st...')
+#6 [internal function]: frontend\controllers\PostController->actionView('<span class="st...')
+#7 D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array('[<span class="t...', '[<span class="s...')
+#8 D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams('[<span class="s...')
+#9 D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#10 D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#11 D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 D:\phpstudy\WWW\yiiblog\frontend\web\index.php(18): yii\base\Application->run()
+#13 {main}
+2017-06-10 15:37:26 [127.0.0.1][-][-][info][application] $_GET = [
+    'id' => '2'
+]
+
+$_COOKIE = [
+    '_csrf' => '65f2fef347f083bbba9816d579140721d97cb8725eba6e2b3bbc81a26f959007a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ø–¢²µT~5=C	Øbâ¬ÀØ¨k–·èN‹<EŸ)%\";}'
+    'PHPSESSID' => 'su2vfleboji6rdgli20l0b8ug6'
+    '_identity' => '6579447d737be37d8ea6acc0c4c50fe93fbb7104894e27e9727b78711d23cfd4a:2:{i:0;s:9:\"_identity\";i:1;s:48:\"[560,\"VmDCPeYZjst2-4Std4Ed0WndREQ9D5vq\",2592000]\";}'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\Program Files\\Git\\cmd;D:\\phpstudy\\php70n;C:\\ProgramData\\ComposerSetup\\bin;D:\\Program Files\\nodejs\\;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\npm'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1840'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/post/view?id=2'
+    'QUERY_STRING' => 'id=2'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REDIRECT_QUERY_STRING' => 'id=2'
+    'REDIRECT_URL' => '/post/view'
+    'REMOTE_PORT' => '58617'
+    'SCRIPT_FILENAME' => 'D:/phpstudy/WWW/yiiblog/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpstudy/WWW/yiiblog/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpstudy/WWW/yiiblog/frontend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'fblog.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => '_csrf=65f2fef347f083bbba9816d579140721d97cb8725eba6e2b3bbc81a26f959007a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22%F8%96%A2%B2%05%B5T%7E5%0F%3DC%09%D8b%E2%AC%C0%D8%A8k%96%B7%E8N%7F%8B%3CE%9F%29%25%22%3B%7D; PHPSESSID=su2vfleboji6rdgli20l0b8ug6; _identity=6579447d737be37d8ea6acc0c4c50fe93fbb7104894e27e9727b78711d23cfd4a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A48%3A%22%5B560%2C%22VmDCPeYZjst2-4Std4Ed0WndREQ9D5vq%22%2C2592000%5D%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.86 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'fblog.com'
+    'REDIRECT_STATUS' => '200'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1497080246.2071
+    'REQUEST_TIME' => 1497080246
+]
+2017-06-10 15:58:36 [127.0.0.1][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined index: username' in D:\phpstudy\WWW\yiiblog\frontend\views\post\view.php:12
+Stack trace:
+#0 D:\phpstudy\WWW\yiiblog\frontend\views\post\view.php(12): yii\base\ErrorHandler->handleError(8, 'Undefined index...', 'D:\\phpstudy\\WWW...', 12, Array)
+#1 D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\base\View.php(330): require('D:\\phpstudy\\WWW...')
+#2 D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('D:\\phpstudy\\WWW...', Array)
+#3 D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\base\View.php(152): yii\base\View->renderFile('D:\\phpstudy\\WWW...', Array, Object(frontend\controllers\PostController))
+#4 D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\base\Controller.php(381): yii\base\View->render('view', Array, Object(frontend\controllers\PostController))
+#5 D:\phpstudy\WWW\yiiblog\frontend\controllers\PostController.php(77): yii\base\Controller->render('view', Array)
+#6 [internal function]: frontend\controllers\PostController->actionView('3')
+#7 D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#8 D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#9 D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('view', Array)
+#10 D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('post/view', Array)
+#11 D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 D:\phpstudy\WWW\yiiblog\frontend\web\index.php(18): yii\base\Application->run()
+#13 {main}
+2017-06-10 15:58:35 [127.0.0.1][-][-][info][application] $_GET = [
+    'id' => '3'
+]
+
+$_COOKIE = [
+    '_csrf' => '65f2fef347f083bbba9816d579140721d97cb8725eba6e2b3bbc81a26f959007a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ø–¢²µT~5=C	Øbâ¬ÀØ¨k–·èN‹<EŸ)%\";}'
+    'PHPSESSID' => 'su2vfleboji6rdgli20l0b8ug6'
+    '_identity' => '6579447d737be37d8ea6acc0c4c50fe93fbb7104894e27e9727b78711d23cfd4a:2:{i:0;s:9:\"_identity\";i:1;s:48:\"[560,\"VmDCPeYZjst2-4Std4Ed0WndREQ9D5vq\",2592000]\";}'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\Program Files\\Git\\cmd;D:\\phpstudy\\php70n;C:\\ProgramData\\ComposerSetup\\bin;D:\\Program Files\\nodejs\\;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\npm'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1848'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/post/view?id=3'
+    'QUERY_STRING' => 'id=3'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REDIRECT_QUERY_STRING' => 'id=3'
+    'REDIRECT_URL' => '/post/view'
+    'REMOTE_PORT' => '58737'
+    'SCRIPT_FILENAME' => 'D:/phpstudy/WWW/yiiblog/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpstudy/WWW/yiiblog/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpstudy/WWW/yiiblog/frontend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'fblog.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => '_csrf=65f2fef347f083bbba9816d579140721d97cb8725eba6e2b3bbc81a26f959007a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22%F8%96%A2%B2%05%B5T%7E5%0F%3DC%09%D8b%E2%AC%C0%D8%A8k%96%B7%E8N%7F%8B%3CE%9F%29%25%22%3B%7D; PHPSESSID=su2vfleboji6rdgli20l0b8ug6; _identity=6579447d737be37d8ea6acc0c4c50fe93fbb7104894e27e9727b78711d23cfd4a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A48%3A%22%5B560%2C%22VmDCPeYZjst2-4Std4Ed0WndREQ9D5vq%22%2C2592000%5D%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.86 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'fblog.com'
+    'REDIRECT_STATUS' => '200'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1497081515.5117
+    'REQUEST_TIME' => 1497081515
+]
+2017-06-10 16:16:45 [127.0.0.1][-][-][error][yii\base\UnknownPropertyException] exception 'yii\base\UnknownPropertyException' with message 'Setting unknown property: app\models\PostExtendModel::brower' in D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\base\Component.php:201
+Stack trace:
+#0 D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\db\BaseActiveRecord.php(305): yii\base\Component->__set('brower', 1)
+#1 D:\phpstudy\WWW\yiiblog\frontend\models\PostExtendModel.php(64): yii\db\BaseActiveRecord->__set('brower', 1)
+#2 D:\phpstudy\WWW\yiiblog\frontend\controllers\PostController.php(79): app\models\PostExtendModel->upCounter(Array, 'brower', 1)
+#3 [internal function]: frontend\controllers\PostController->actionView('3')
+#4 D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#5 D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#6 D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('view', Array)
+#7 D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('post/view', Array)
+#8 D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 D:\phpstudy\WWW\yiiblog\frontend\web\index.php(18): yii\base\Application->run()
+#10 {main}
+2017-06-10 16:16:44 [127.0.0.1][-][-][info][application] $_GET = [
+    'id' => '3'
+]
+
+$_COOKIE = [
+    '_csrf' => '65f2fef347f083bbba9816d579140721d97cb8725eba6e2b3bbc81a26f959007a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ø–¢²µT~5=C	Øbâ¬ÀØ¨k–·èN‹<EŸ)%\";}'
+    'PHPSESSID' => 'su2vfleboji6rdgli20l0b8ug6'
+    '_identity' => '6579447d737be37d8ea6acc0c4c50fe93fbb7104894e27e9727b78711d23cfd4a:2:{i:0;s:9:\"_identity\";i:1;s:48:\"[560,\"VmDCPeYZjst2-4Std4Ed0WndREQ9D5vq\",2592000]\";}'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\Program Files\\Git\\cmd;D:\\phpstudy\\php70n;C:\\ProgramData\\ComposerSetup\\bin;D:\\Program Files\\nodejs\\;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\npm'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '520'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/post/view?id=3'
+    'QUERY_STRING' => 'id=3'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REDIRECT_QUERY_STRING' => 'id=3'
+    'REDIRECT_URL' => '/post/view'
+    'REMOTE_PORT' => '59128'
+    'SCRIPT_FILENAME' => 'D:/phpstudy/WWW/yiiblog/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpstudy/WWW/yiiblog/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpstudy/WWW/yiiblog/frontend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'fblog.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => '_csrf=65f2fef347f083bbba9816d579140721d97cb8725eba6e2b3bbc81a26f959007a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22%F8%96%A2%B2%05%B5T%7E5%0F%3DC%09%D8b%E2%AC%C0%D8%A8k%96%B7%E8N%7F%8B%3CE%9F%29%25%22%3B%7D; PHPSESSID=su2vfleboji6rdgli20l0b8ug6; _identity=6579447d737be37d8ea6acc0c4c50fe93fbb7104894e27e9727b78711d23cfd4a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A48%3A%22%5B560%2C%22VmDCPeYZjst2-4Std4Ed0WndREQ9D5vq%22%2C2592000%5D%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.86 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'fblog.com'
+    'REDIRECT_STATUS' => '200'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1497082604.574
+    'REQUEST_TIME' => 1497082604
+]
+2017-06-10 17:35:48 [127.0.0.1][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined variable: data' in D:\phpstudy\WWW\yiiblog\frontend\widgets\post\views\index.php:7
+Stack trace:
+#0 D:\phpstudy\WWW\yiiblog\frontend\widgets\post\views\index.php(7): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', 'D:\\phpstudy\\WWW...', 7, Array)
+#1 D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\base\View.php(330): require('D:\\phpstudy\\WWW...')
+#2 D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('D:\\phpstudy\\WWW...', Array)
+#3 D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\base\View.php(152): yii\base\View->renderFile('D:\\phpstudy\\WWW...', Array, Object(frontend\widgets\post\PostWidget))
+#4 D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\base\Widget.php(234): yii\base\View->render('index', Array, Object(frontend\widgets\post\PostWidget))
+#5 D:\phpstudy\WWW\yiiblog\frontend\widgets\post\PostWidget.php(35): yii\base\Widget->render('index', Array)
+#6 D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\base\Widget.php(139): frontend\widgets\post\PostWidget->run()
+#7 D:\phpstudy\WWW\yiiblog\frontend\views\post\index.php(6): yii\base\Widget::widget()
+#8 D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\base\View.php(330): require('D:\\phpstudy\\WWW...')
+#9 D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('D:\\phpstudy\\WWW...', Array)
+#10 D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\base\View.php(152): yii\base\View->renderFile('D:\\phpstudy\\WWW...', Array, Object(frontend\controllers\PostController))
+#11 D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\base\Controller.php(381): yii\base\View->render('index', Array, Object(frontend\controllers\PostController))
+#12 D:\phpstudy\WWW\yiiblog\frontend\controllers\PostController.php(46): yii\base\Controller->render('index')
+#13 [internal function]: frontend\controllers\PostController->actionIndex()
+#14 D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#15 D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#16 D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('index', Array)
+#17 D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('post/index', Array)
+#18 D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#19 D:\phpstudy\WWW\yiiblog\frontend\web\index.php(18): yii\base\Application->run()
+#20 {main}
+2017-06-10 17:35:46 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '65f2fef347f083bbba9816d579140721d97cb8725eba6e2b3bbc81a26f959007a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ø–¢²µT~5=C	Øbâ¬ÀØ¨k–·èN‹<EŸ)%\";}'
+    'PHPSESSID' => 'su2vfleboji6rdgli20l0b8ug6'
+    '_identity' => '6579447d737be37d8ea6acc0c4c50fe93fbb7104894e27e9727b78711d23cfd4a:2:{i:0;s:9:\"_identity\";i:1;s:48:\"[560,\"VmDCPeYZjst2-4Std4Ed0WndREQ9D5vq\",2592000]\";}'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\Program Files\\Git\\cmd;D:\\phpstudy\\php70n;C:\\ProgramData\\ComposerSetup\\bin;D:\\Program Files\\nodejs\\;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\npm'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1884'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/post/index'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REDIRECT_URL' => '/post/index'
+    'REMOTE_PORT' => '59332'
+    'SCRIPT_FILENAME' => 'D:/phpstudy/WWW/yiiblog/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpstudy/WWW/yiiblog/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpstudy/WWW/yiiblog/frontend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'fblog.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => '_csrf=65f2fef347f083bbba9816d579140721d97cb8725eba6e2b3bbc81a26f959007a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22%F8%96%A2%B2%05%B5T%7E5%0F%3DC%09%D8b%E2%AC%C0%D8%A8k%96%B7%E8N%7F%8B%3CE%9F%29%25%22%3B%7D; PHPSESSID=su2vfleboji6rdgli20l0b8ug6; _identity=6579447d737be37d8ea6acc0c4c50fe93fbb7104894e27e9727b78711d23cfd4a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A48%3A%22%5B560%2C%22VmDCPeYZjst2-4Std4Ed0WndREQ9D5vq%22%2C2592000%5D%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.86 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'fblog.com'
+    'REDIRECT_STATUS' => '200'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1497087346.9102
+    'REQUEST_TIME' => 1497087346
+]
+2017-06-10 17:36:13 [127.0.0.1][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined index: upload_url' in D:\phpstudy\WWW\yiiblog\frontend\widgets\post\views\index.php:18
+Stack trace:
+#0 D:\phpstudy\WWW\yiiblog\frontend\widgets\post\views\index.php(18): yii\base\ErrorHandler->handleError(8, 'Undefined index...', 'D:\\phpstudy\\WWW...', 18, Array)
+#1 D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\base\View.php(330): require('D:\\phpstudy\\WWW...')
+#2 D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('D:\\phpstudy\\WWW...', Array)
+#3 D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\base\View.php(152): yii\base\View->renderFile('D:\\phpstudy\\WWW...', Array, Object(frontend\widgets\post\PostWidget))
+#4 D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\base\Widget.php(234): yii\base\View->render('index', Array, Object(frontend\widgets\post\PostWidget))
+#5 D:\phpstudy\WWW\yiiblog\frontend\widgets\post\PostWidget.php(35): yii\base\Widget->render('index', Array)
+#6 D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\base\Widget.php(139): frontend\widgets\post\PostWidget->run()
+#7 D:\phpstudy\WWW\yiiblog\frontend\views\post\index.php(6): yii\base\Widget::widget()
+#8 D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\base\View.php(330): require('D:\\phpstudy\\WWW...')
+#9 D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('D:\\phpstudy\\WWW...', Array)
+#10 D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\base\View.php(152): yii\base\View->renderFile('D:\\phpstudy\\WWW...', Array, Object(frontend\controllers\PostController))
+#11 D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\base\Controller.php(381): yii\base\View->render('index', Array, Object(frontend\controllers\PostController))
+#12 D:\phpstudy\WWW\yiiblog\frontend\controllers\PostController.php(46): yii\base\Controller->render('index')
+#13 [internal function]: frontend\controllers\PostController->actionIndex()
+#14 D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#15 D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#16 D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('index', Array)
+#17 D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('post/index', Array)
+#18 D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#19 D:\phpstudy\WWW\yiiblog\frontend\web\index.php(18): yii\base\Application->run()
+#20 {main}
+2017-06-10 17:36:12 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '65f2fef347f083bbba9816d579140721d97cb8725eba6e2b3bbc81a26f959007a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ø–¢²µT~5=C	Øbâ¬ÀØ¨k–·èN‹<EŸ)%\";}'
+    'PHPSESSID' => 'su2vfleboji6rdgli20l0b8ug6'
+    '_identity' => '6579447d737be37d8ea6acc0c4c50fe93fbb7104894e27e9727b78711d23cfd4a:2:{i:0;s:9:\"_identity\";i:1;s:48:\"[560,\"VmDCPeYZjst2-4Std4Ed0WndREQ9D5vq\",2592000]\";}'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\Program Files\\Git\\cmd;D:\\phpstudy\\php70n;C:\\ProgramData\\ComposerSetup\\bin;D:\\Program Files\\nodejs\\;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\npm'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1884'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/post/index'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REDIRECT_URL' => '/post/index'
+    'REMOTE_PORT' => '59340'
+    'SCRIPT_FILENAME' => 'D:/phpstudy/WWW/yiiblog/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpstudy/WWW/yiiblog/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpstudy/WWW/yiiblog/frontend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'fblog.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => '_csrf=65f2fef347f083bbba9816d579140721d97cb8725eba6e2b3bbc81a26f959007a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22%F8%96%A2%B2%05%B5T%7E5%0F%3DC%09%D8b%E2%AC%C0%D8%A8k%96%B7%E8N%7F%8B%3CE%9F%29%25%22%3B%7D; PHPSESSID=su2vfleboji6rdgli20l0b8ug6; _identity=6579447d737be37d8ea6acc0c4c50fe93fbb7104894e27e9727b78711d23cfd4a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A48%3A%22%5B560%2C%22VmDCPeYZjst2-4Std4Ed0WndREQ9D5vq%22%2C2592000%5D%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.86 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'fblog.com'
+    'REDIRECT_STATUS' => '200'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1497087372.2447
+    'REQUEST_TIME' => 1497087372
+]
+2017-06-10 18:17:32 [127.0.0.1][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined index: items' in D:\phpstudy\WWW\yiiblog\frontend\widgets\banner\views\index.php:7
+Stack trace:
+#0 D:\phpstudy\WWW\yiiblog\frontend\widgets\banner\views\index.php(7): yii\base\ErrorHandler->handleError(8, 'Undefined index...', 'D:\\phpstudy\\WWW...', 7, Array)
+#1 D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\base\View.php(330): require('D:\\phpstudy\\WWW...')
+#2 D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('D:\\phpstudy\\WWW...', Array)
+#3 D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\base\View.php(152): yii\base\View->renderFile('D:\\phpstudy\\WWW...', Array, Object(frontend\widgets\banner\BannerWidget))
+#4 D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\base\Widget.php(234): yii\base\View->render('index', Array, Object(frontend\widgets\banner\BannerWidget))
+#5 D:\phpstudy\WWW\yiiblog\frontend\widgets\banner\BannerWidget.php(25): yii\base\Widget->render('index', Array)
+#6 D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\base\Widget.php(139): frontend\widgets\banner\BannerWidget->run()
+#7 D:\phpstudy\WWW\yiiblog\frontend\views\site\index.php(7): yii\base\Widget::widget()
+#8 D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\base\View.php(330): require('D:\\phpstudy\\WWW...')
+#9 D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('D:\\phpstudy\\WWW...', Array)
+#10 D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\base\View.php(152): yii\base\View->renderFile('D:\\phpstudy\\WWW...', Array, Object(frontend\controllers\SiteController))
+#11 D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\base\Controller.php(381): yii\base\View->render('index', Array, Object(frontend\controllers\SiteController))
+#12 D:\phpstudy\WWW\yiiblog\frontend\controllers\SiteController.php(75): yii\base\Controller->render('index')
+#13 [internal function]: frontend\controllers\SiteController->actionIndex()
+#14 D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#15 D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#16 D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('index', Array)
+#17 D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('site/index', Array)
+#18 D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#19 D:\phpstudy\WWW\yiiblog\frontend\web\index.php(18): yii\base\Application->run()
+#20 {main}
+2017-06-10 18:17:32 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '65f2fef347f083bbba9816d579140721d97cb8725eba6e2b3bbc81a26f959007a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ø–¢²µT~5=C	Øbâ¬ÀØ¨k–·èN‹<EŸ)%\";}'
+    'PHPSESSID' => 'su2vfleboji6rdgli20l0b8ug6'
+    '_identity' => '6579447d737be37d8ea6acc0c4c50fe93fbb7104894e27e9727b78711d23cfd4a:2:{i:0;s:9:\"_identity\";i:1;s:48:\"[560,\"VmDCPeYZjst2-4Std4Ed0WndREQ9D5vq\",2592000]\";}'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\Program Files\\Git\\cmd;D:\\phpstudy\\php70n;C:\\ProgramData\\ComposerSetup\\bin;D:\\Program Files\\nodejs\\;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\npm'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1920'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/site/index'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REDIRECT_URL' => '/site/index'
+    'REMOTE_PORT' => '59715'
+    'SCRIPT_FILENAME' => 'D:/phpstudy/WWW/yiiblog/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpstudy/WWW/yiiblog/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpstudy/WWW/yiiblog/frontend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'fblog.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => '_csrf=65f2fef347f083bbba9816d579140721d97cb8725eba6e2b3bbc81a26f959007a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22%F8%96%A2%B2%05%B5T%7E5%0F%3DC%09%D8b%E2%AC%C0%D8%A8k%96%B7%E8N%7F%8B%3CE%9F%29%25%22%3B%7D; PHPSESSID=su2vfleboji6rdgli20l0b8ug6; _identity=6579447d737be37d8ea6acc0c4c50fe93fbb7104894e27e9727b78711d23cfd4a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A48%3A%22%5B560%2C%22VmDCPeYZjst2-4Std4Ed0WndREQ9D5vq%22%2C2592000%5D%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://fblog.com/site/index'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.86 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'fblog.com'
+    'REDIRECT_STATUS' => '200'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1497089852.2545
+    'REQUEST_TIME' => 1497089852
+]
+2017-06-10 18:18:10 [127.0.0.1][560][su2vfleboji6rdgli20l0b8ug6][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "statics/images/banner/b_0.png".' in D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('statics/images/...', Array)
+#1 D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\phpstudy\WWW\yiiblog\frontend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'é¡µé¢æœªæ‰¾åˆ°ã€‚' in D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\phpstudy\WWW\yiiblog\frontend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2017-06-10 18:18:10 [127.0.0.1][560][su2vfleboji6rdgli20l0b8ug6][info][application] $_COOKIE = [
+    '_csrf' => '65f2fef347f083bbba9816d579140721d97cb8725eba6e2b3bbc81a26f959007a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ø–¢²µT~5=C	Øbâ¬ÀØ¨k–·èN‹<EŸ)%\";}'
+    'PHPSESSID' => 'su2vfleboji6rdgli20l0b8ug6'
+    '_identity' => '6579447d737be37d8ea6acc0c4c50fe93fbb7104894e27e9727b78711d23cfd4a:2:{i:0;s:9:\"_identity\";i:1;s:48:\"[560,\"VmDCPeYZjst2-4Std4Ed0WndREQ9D5vq\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 560
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\Program Files\\Git\\cmd;D:\\phpstudy\\php70n;C:\\ProgramData\\ComposerSetup\\bin;D:\\Program Files\\nodejs\\;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\npm'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1920'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/statics/images/banner/b_0.png'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REDIRECT_URL' => '/statics/images/banner/b_0.png'
+    'REMOTE_PORT' => '59718'
+    'SCRIPT_FILENAME' => 'D:/phpstudy/WWW/yiiblog/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpstudy/WWW/yiiblog/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpstudy/WWW/yiiblog/frontend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'fblog.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => '_csrf=65f2fef347f083bbba9816d579140721d97cb8725eba6e2b3bbc81a26f959007a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22%F8%96%A2%B2%05%B5T%7E5%0F%3DC%09%D8b%E2%AC%C0%D8%A8k%96%B7%E8N%7F%8B%3CE%9F%29%25%22%3B%7D; PHPSESSID=su2vfleboji6rdgli20l0b8ug6; _identity=6579447d737be37d8ea6acc0c4c50fe93fbb7104894e27e9727b78711d23cfd4a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A48%3A%22%5B560%2C%22VmDCPeYZjst2-4Std4Ed0WndREQ9D5vq%22%2C2592000%5D%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://fblog.com/site/index'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.86 Safari/537.36'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'fblog.com'
+    'REDIRECT_STATUS' => '200'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1497089890.2667
+    'REQUEST_TIME' => 1497089890
+]
+2017-06-10 18:18:27 [127.0.0.1][560][su2vfleboji6rdgli20l0b8ug6][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "statics/images/banner/b_0.png".' in D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('statics/images/...', Array)
+#1 D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\phpstudy\WWW\yiiblog\frontend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'é¡µé¢æœªæ‰¾åˆ°ã€‚' in D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\phpstudy\WWW\yiiblog\frontend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2017-06-10 18:18:27 [127.0.0.1][560][su2vfleboji6rdgli20l0b8ug6][info][application] $_COOKIE = [
+    '_csrf' => '65f2fef347f083bbba9816d579140721d97cb8725eba6e2b3bbc81a26f959007a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ø–¢²µT~5=C	Øbâ¬ÀØ¨k–·èN‹<EŸ)%\";}'
+    'PHPSESSID' => 'su2vfleboji6rdgli20l0b8ug6'
+    '_identity' => '6579447d737be37d8ea6acc0c4c50fe93fbb7104894e27e9727b78711d23cfd4a:2:{i:0;s:9:\"_identity\";i:1;s:48:\"[560,\"VmDCPeYZjst2-4Std4Ed0WndREQ9D5vq\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 560
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\Program Files\\Git\\cmd;D:\\phpstudy\\php70n;C:\\ProgramData\\ComposerSetup\\bin;D:\\Program Files\\nodejs\\;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\npm'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1920'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/statics/images/banner/b_0.png'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REDIRECT_URL' => '/statics/images/banner/b_0.png'
+    'REMOTE_PORT' => '59732'
+    'SCRIPT_FILENAME' => 'D:/phpstudy/WWW/yiiblog/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpstudy/WWW/yiiblog/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpstudy/WWW/yiiblog/frontend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'fblog.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => '_csrf=65f2fef347f083bbba9816d579140721d97cb8725eba6e2b3bbc81a26f959007a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22%F8%96%A2%B2%05%B5T%7E5%0F%3DC%09%D8b%E2%AC%C0%D8%A8k%96%B7%E8N%7F%8B%3CE%9F%29%25%22%3B%7D; PHPSESSID=su2vfleboji6rdgli20l0b8ug6; _identity=6579447d737be37d8ea6acc0c4c50fe93fbb7104894e27e9727b78711d23cfd4a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A48%3A%22%5B560%2C%22VmDCPeYZjst2-4Std4Ed0WndREQ9D5vq%22%2C2592000%5D%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://fblog.com/site/index'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.86 Safari/537.36'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'fblog.com'
+    'REDIRECT_STATUS' => '200'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1497089907.6747
+    'REQUEST_TIME' => 1497089907
+]
+2017-06-10 18:20:50 [127.0.0.1][560][su2vfleboji6rdgli20l0b8ug6][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "statics/images/banner/b_1.png".' in D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('statics/images/...', Array)
+#1 D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\phpstudy\WWW\yiiblog\frontend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'é¡µé¢æœªæ‰¾åˆ°ã€‚' in D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\phpstudy\WWW\yiiblog\frontend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2017-06-10 18:20:50 [127.0.0.1][560][su2vfleboji6rdgli20l0b8ug6][info][application] $_COOKIE = [
+    '_csrf' => '65f2fef347f083bbba9816d579140721d97cb8725eba6e2b3bbc81a26f959007a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ø–¢²µT~5=C	Øbâ¬ÀØ¨k–·èN‹<EŸ)%\";}'
+    'PHPSESSID' => 'su2vfleboji6rdgli20l0b8ug6'
+    '_identity' => '6579447d737be37d8ea6acc0c4c50fe93fbb7104894e27e9727b78711d23cfd4a:2:{i:0;s:9:\"_identity\";i:1;s:48:\"[560,\"VmDCPeYZjst2-4Std4Ed0WndREQ9D5vq\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 560
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\Program Files\\Git\\cmd;D:\\phpstudy\\php70n;C:\\ProgramData\\ComposerSetup\\bin;D:\\Program Files\\nodejs\\;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\npm'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1908'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/statics/images/banner/b_1.png'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REDIRECT_URL' => '/statics/images/banner/b_1.png'
+    'REMOTE_PORT' => '59762'
+    'SCRIPT_FILENAME' => 'D:/phpstudy/WWW/yiiblog/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpstudy/WWW/yiiblog/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpstudy/WWW/yiiblog/frontend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'fblog.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => '_csrf=65f2fef347f083bbba9816d579140721d97cb8725eba6e2b3bbc81a26f959007a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22%F8%96%A2%B2%05%B5T%7E5%0F%3DC%09%D8b%E2%AC%C0%D8%A8k%96%B7%E8N%7F%8B%3CE%9F%29%25%22%3B%7D; PHPSESSID=su2vfleboji6rdgli20l0b8ug6; _identity=6579447d737be37d8ea6acc0c4c50fe93fbb7104894e27e9727b78711d23cfd4a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A48%3A%22%5B560%2C%22VmDCPeYZjst2-4Std4Ed0WndREQ9D5vq%22%2C2592000%5D%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://fblog.com/site/index'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.86 Safari/537.36'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'fblog.com'
+    'REDIRECT_STATUS' => '200'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1497090050.7379
+    'REQUEST_TIME' => 1497090050
+]
+2017-06-10 18:21:22 [127.0.0.1][560][su2vfleboji6rdgli20l0b8ug6][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "statics/images/banner/b_1.png".' in D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('statics/images/...', Array)
+#1 D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\phpstudy\WWW\yiiblog\frontend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'é¡µé¢æœªæ‰¾åˆ°ã€‚' in D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\phpstudy\WWW\yiiblog\frontend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2017-06-10 18:21:22 [127.0.0.1][560][su2vfleboji6rdgli20l0b8ug6][info][application] $_COOKIE = [
+    '_csrf' => '65f2fef347f083bbba9816d579140721d97cb8725eba6e2b3bbc81a26f959007a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ø–¢²µT~5=C	Øbâ¬ÀØ¨k–·èN‹<EŸ)%\";}'
+    'PHPSESSID' => 'su2vfleboji6rdgli20l0b8ug6'
+    '_identity' => '6579447d737be37d8ea6acc0c4c50fe93fbb7104894e27e9727b78711d23cfd4a:2:{i:0;s:9:\"_identity\";i:1;s:48:\"[560,\"VmDCPeYZjst2-4Std4Ed0WndREQ9D5vq\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 560
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\Program Files\\Git\\cmd;D:\\phpstudy\\php70n;C:\\ProgramData\\ComposerSetup\\bin;D:\\Program Files\\nodejs\\;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\npm'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1920'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/statics/images/banner/b_1.png'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REDIRECT_URL' => '/statics/images/banner/b_1.png'
+    'REMOTE_PORT' => '59768'
+    'SCRIPT_FILENAME' => 'D:/phpstudy/WWW/yiiblog/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpstudy/WWW/yiiblog/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpstudy/WWW/yiiblog/frontend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'fblog.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => '_csrf=65f2fef347f083bbba9816d579140721d97cb8725eba6e2b3bbc81a26f959007a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22%F8%96%A2%B2%05%B5T%7E5%0F%3DC%09%D8b%E2%AC%C0%D8%A8k%96%B7%E8N%7F%8B%3CE%9F%29%25%22%3B%7D; PHPSESSID=su2vfleboji6rdgli20l0b8ug6; _identity=6579447d737be37d8ea6acc0c4c50fe93fbb7104894e27e9727b78711d23cfd4a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A48%3A%22%5B560%2C%22VmDCPeYZjst2-4Std4Ed0WndREQ9D5vq%22%2C2592000%5D%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://fblog.com/site/index'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.86 Safari/537.36'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'fblog.com'
+    'REDIRECT_STATUS' => '200'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1497090082.0937
+    'REQUEST_TIME' => 1497090082
+]
+2017-06-10 18:24:06 [127.0.0.1][560][su2vfleboji6rdgli20l0b8ug6][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: post/detail' in D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\base\Controller.php:127
+Stack trace:
+#0 D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('detail', Array)
+#1 D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('post/detail', Array)
+#2 D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 D:\phpstudy\WWW\yiiblog\frontend\web\index.php(18): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'é¡µé¢æœªæ‰¾åˆ°ã€‚' in D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\phpstudy\WWW\yiiblog\frontend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2017-06-10 18:24:06 [127.0.0.1][560][su2vfleboji6rdgli20l0b8ug6][info][application] $_GET = [
+    'id' => '3'
+]
+
+$_COOKIE = [
+    '_csrf' => '65f2fef347f083bbba9816d579140721d97cb8725eba6e2b3bbc81a26f959007a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ø–¢²µT~5=C	Øbâ¬ÀØ¨k–·èN‹<EŸ)%\";}'
+    'PHPSESSID' => 'su2vfleboji6rdgli20l0b8ug6'
+    '_identity' => '6579447d737be37d8ea6acc0c4c50fe93fbb7104894e27e9727b78711d23cfd4a:2:{i:0;s:9:\"_identity\";i:1;s:48:\"[560,\"VmDCPeYZjst2-4Std4Ed0WndREQ9D5vq\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 560
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\Program Files\\Git\\cmd;D:\\phpstudy\\php70n;C:\\ProgramData\\ComposerSetup\\bin;D:\\Program Files\\nodejs\\;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\npm'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1908'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/post/detail?id=3'
+    'QUERY_STRING' => 'id=3'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REDIRECT_QUERY_STRING' => 'id=3'
+    'REDIRECT_URL' => '/post/detail'
+    'REMOTE_PORT' => '59938'
+    'SCRIPT_FILENAME' => 'D:/phpstudy/WWW/yiiblog/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpstudy/WWW/yiiblog/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpstudy/WWW/yiiblog/frontend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'fblog.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => '_csrf=65f2fef347f083bbba9816d579140721d97cb8725eba6e2b3bbc81a26f959007a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22%F8%96%A2%B2%05%B5T%7E5%0F%3DC%09%D8b%E2%AC%C0%D8%A8k%96%B7%E8N%7F%8B%3CE%9F%29%25%22%3B%7D; PHPSESSID=su2vfleboji6rdgli20l0b8ug6; _identity=6579447d737be37d8ea6acc0c4c50fe93fbb7104894e27e9727b78711d23cfd4a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A48%3A%22%5B560%2C%22VmDCPeYZjst2-4Std4Ed0WndREQ9D5vq%22%2C2592000%5D%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://fblog.com/site/index'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.86 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'fblog.com'
+    'REDIRECT_STATUS' => '200'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1497090246.5661
+    'REQUEST_TIME' => 1497090246
+]
+2017-06-10 18:36:05 [127.0.0.1][560][su2vfleboji6rdgli20l0b8ug6][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "assets/c418a0ef/images/bg.jpg".' in D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('assets/c418a0ef...', Array)
+#1 D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\phpstudy\WWW\yiiblog\frontend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'é¡µé¢æœªæ‰¾åˆ°ã€‚' in D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\phpstudy\WWW\yiiblog\frontend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2017-06-10 18:36:05 [127.0.0.1][560][su2vfleboji6rdgli20l0b8ug6][info][application] $_COOKIE = [
+    '_csrf' => '65f2fef347f083bbba9816d579140721d97cb8725eba6e2b3bbc81a26f959007a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ø–¢²µT~5=C	Øbâ¬ÀØ¨k–·èN‹<EŸ)%\";}'
+    'PHPSESSID' => 'su2vfleboji6rdgli20l0b8ug6'
+    '_identity' => '6579447d737be37d8ea6acc0c4c50fe93fbb7104894e27e9727b78711d23cfd4a:2:{i:0;s:9:\"_identity\";i:1;s:48:\"[560,\"VmDCPeYZjst2-4Std4Ed0WndREQ9D5vq\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 560
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\Program Files\\Git\\cmd;D:\\phpstudy\\php70n;C:\\ProgramData\\ComposerSetup\\bin;D:\\Program Files\\nodejs\\;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\npm'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1940'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/assets/c418a0ef/images/bg.jpg'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REDIRECT_URL' => '/assets/c418a0ef/images/bg.jpg'
+    'REMOTE_PORT' => '60183'
+    'SCRIPT_FILENAME' => 'D:/phpstudy/WWW/yiiblog/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpstudy/WWW/yiiblog/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpstudy/WWW/yiiblog/frontend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'fblog.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => '_csrf=65f2fef347f083bbba9816d579140721d97cb8725eba6e2b3bbc81a26f959007a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22%F8%96%A2%B2%05%B5T%7E5%0F%3DC%09%D8b%E2%AC%C0%D8%A8k%96%B7%E8N%7F%8B%3CE%9F%29%25%22%3B%7D; PHPSESSID=su2vfleboji6rdgli20l0b8ug6; _identity=6579447d737be37d8ea6acc0c4c50fe93fbb7104894e27e9727b78711d23cfd4a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A48%3A%22%5B560%2C%22VmDCPeYZjst2-4Std4Ed0WndREQ9D5vq%22%2C2592000%5D%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://fblog.com/assets/c418a0ef/css/upload.css'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.86 Safari/537.36'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'fblog.com'
+    'REDIRECT_STATUS' => '200'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1497090965.2072
+    'REQUEST_TIME' => 1497090965
+]
+2017-06-10 18:41:00 [127.0.0.1][560][su2vfleboji6rdgli20l0b8ug6][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "assets/c418a0ef/images/bg.jpg".' in D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('assets/c418a0ef...', Array)
+#1 D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\phpstudy\WWW\yiiblog\frontend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'é¡µé¢æœªæ‰¾åˆ°ã€‚' in D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\phpstudy\WWW\yiiblog\frontend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2017-06-10 18:41:00 [127.0.0.1][560][su2vfleboji6rdgli20l0b8ug6][info][application] $_COOKIE = [
+    '_csrf' => '65f2fef347f083bbba9816d579140721d97cb8725eba6e2b3bbc81a26f959007a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ø–¢²µT~5=C	Øbâ¬ÀØ¨k–·èN‹<EŸ)%\";}'
+    'PHPSESSID' => 'su2vfleboji6rdgli20l0b8ug6'
+    '_identity' => '6579447d737be37d8ea6acc0c4c50fe93fbb7104894e27e9727b78711d23cfd4a:2:{i:0;s:9:\"_identity\";i:1;s:48:\"[560,\"VmDCPeYZjst2-4Std4Ed0WndREQ9D5vq\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 560
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\Program Files\\Git\\cmd;D:\\phpstudy\\php70n;C:\\ProgramData\\ComposerSetup\\bin;D:\\Program Files\\nodejs\\;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\npm'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1940'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/assets/c418a0ef/images/bg.jpg'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REDIRECT_URL' => '/assets/c418a0ef/images/bg.jpg'
+    'REMOTE_PORT' => '60551'
+    'SCRIPT_FILENAME' => 'D:/phpstudy/WWW/yiiblog/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpstudy/WWW/yiiblog/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpstudy/WWW/yiiblog/frontend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'fblog.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => '_csrf=65f2fef347f083bbba9816d579140721d97cb8725eba6e2b3bbc81a26f959007a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22%F8%96%A2%B2%05%B5T%7E5%0F%3DC%09%D8b%E2%AC%C0%D8%A8k%96%B7%E8N%7F%8B%3CE%9F%29%25%22%3B%7D; PHPSESSID=su2vfleboji6rdgli20l0b8ug6; _identity=6579447d737be37d8ea6acc0c4c50fe93fbb7104894e27e9727b78711d23cfd4a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A48%3A%22%5B560%2C%22VmDCPeYZjst2-4Std4Ed0WndREQ9D5vq%22%2C2592000%5D%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://fblog.com/assets/c418a0ef/css/upload.css'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.86 Safari/537.36'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'fblog.com'
+    'REDIRECT_STATUS' => '200'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1497091260.7561
+    'REQUEST_TIME' => 1497091260
+]
+2017-06-10 18:41:56 [127.0.0.1][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined index: Content-Type' in D:\phpstudy\WWW\yiiblog\common\widgets\ueditor\Uploader.php:167
+Stack trace:
+#0 D:\phpstudy\WWW\yiiblog\common\widgets\ueditor\Uploader.php(167): yii\base\ErrorHandler->handleError(8, 'Undefined index...', 'D:\\phpstudy\\WWW...', 167, Array)
+#1 D:\phpstudy\WWW\yiiblog\common\widgets\ueditor\Uploader.php(50): common\widgets\ueditor\Uploader->saveRemote()
+#2 D:\phpstudy\WWW\yiiblog\common\widgets\ueditor\UeditorAction.php(211): common\widgets\ueditor\Uploader->__construct('http://www.duwe...', Array, 'remote')
+#3 D:\phpstudy\WWW\yiiblog\common\widgets\ueditor\UeditorAction.php(53): common\widgets\ueditor\UeditorAction->ActCrawler()
+#4 [internal function]: common\widgets\ueditor\UeditorAction->run()
+#5 D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\base\Action.php(94): call_user_func_array(Array, Array)
+#6 D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\Action->runWithParams(Array)
+#7 D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('ueditor', Array)
+#8 D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('post/ueditor', Array)
+#9 D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 D:\phpstudy\WWW\yiiblog\frontend\web\index.php(18): yii\base\Application->run()
+#11 {main}
+2017-06-10 18:41:56 [127.0.0.1][-][-][info][application] $_GET = [
+    'action' => 'catchimage'
+]
+
+$_POST = [
+    'source' => [
+        0 => 'http://www.duwenzhang.com/upimg/160831/1_160416.jpg'
+    ]
+]
+
+$_COOKIE = [
+    '_csrf' => '65f2fef347f083bbba9816d579140721d97cb8725eba6e2b3bbc81a26f959007a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ø–¢²µT~5=C	Øbâ¬ÀØ¨k–·èN‹<EŸ)%\";}'
+    'PHPSESSID' => 'su2vfleboji6rdgli20l0b8ug6'
+    '_identity' => '6579447d737be37d8ea6acc0c4c50fe93fbb7104894e27e9727b78711d23cfd4a:2:{i:0;s:9:\"_identity\";i:1;s:48:\"[560,\"VmDCPeYZjst2-4Std4Ed0WndREQ9D5vq\",2592000]\";}'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\Program Files\\Git\\cmd;D:\\phpstudy\\php70n;C:\\ProgramData\\ComposerSetup\\bin;D:\\Program Files\\nodejs\\;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\npm'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1936'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/post/ueditor?action=catchimage&'
+    'QUERY_STRING' => 'action=catchimage&'
+    'REQUEST_METHOD' => 'POST'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REDIRECT_QUERY_STRING' => 'action=catchimage&'
+    'REDIRECT_URL' => '/post/ueditor'
+    'REMOTE_PORT' => '60568'
+    'SCRIPT_FILENAME' => 'D:/phpstudy/WWW/yiiblog/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpstudy/WWW/yiiblog/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpstudy/WWW/yiiblog/frontend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'fblog.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => '_csrf=65f2fef347f083bbba9816d579140721d97cb8725eba6e2b3bbc81a26f959007a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22%F8%96%A2%B2%05%B5T%7E5%0F%3DC%09%D8b%E2%AC%C0%D8%A8k%96%B7%E8N%7F%8B%3CE%9F%29%25%22%3B%7D; PHPSESSID=su2vfleboji6rdgli20l0b8ug6; _identity=6579447d737be37d8ea6acc0c4c50fe93fbb7104894e27e9727b78711d23cfd4a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A48%3A%22%5B560%2C%22VmDCPeYZjst2-4Std4Ed0WndREQ9D5vq%22%2C2592000%5D%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://fblog.com/post/create'
+    'HTTP_ACCEPT' => '*/*'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.86 Safari/537.36'
+    'HTTP_ORIGIN' => 'http://fblog.com'
+    'CONTENT_LENGTH' => '72'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'fblog.com'
+    'REDIRECT_STATUS' => '200'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1497091316.4723
+    'REQUEST_TIME' => 1497091316
+]
+2017-06-10 18:44:55 [127.0.0.1][560][su2vfleboji6rdgli20l0b8ug6][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "assets/c418a0ef/images/bg.jpg".' in D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('assets/c418a0ef...', Array)
+#1 D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\phpstudy\WWW\yiiblog\frontend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'é¡µé¢æœªæ‰¾åˆ°ã€‚' in D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 D:\phpstudy\WWW\yiiblog\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\phpstudy\WWW\yiiblog\frontend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2017-06-10 18:44:55 [127.0.0.1][560][su2vfleboji6rdgli20l0b8ug6][info][application] $_COOKIE = [
+    '_csrf' => '65f2fef347f083bbba9816d579140721d97cb8725eba6e2b3bbc81a26f959007a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ø–¢²µT~5=C	Øbâ¬ÀØ¨k–·èN‹<EŸ)%\";}'
+    'PHPSESSID' => 'su2vfleboji6rdgli20l0b8ug6'
+    '_identity' => '6579447d737be37d8ea6acc0c4c50fe93fbb7104894e27e9727b78711d23cfd4a:2:{i:0;s:9:\"_identity\";i:1;s:48:\"[560,\"VmDCPeYZjst2-4Std4Ed0WndREQ9D5vq\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 560
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\Program Files\\Git\\cmd;D:\\phpstudy\\php70n;C:\\ProgramData\\ComposerSetup\\bin;D:\\Program Files\\nodejs\\;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\npm'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1948'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/assets/c418a0ef/images/bg.jpg'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REDIRECT_URL' => '/assets/c418a0ef/images/bg.jpg'
+    'REMOTE_PORT' => '60637'
+    'SCRIPT_FILENAME' => 'D:/phpstudy/WWW/yiiblog/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpstudy/WWW/yiiblog/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpstudy/WWW/yiiblog/frontend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'fblog.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => '_csrf=65f2fef347f083bbba9816d579140721d97cb8725eba6e2b3bbc81a26f959007a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22%F8%96%A2%B2%05%B5T%7E5%0F%3DC%09%D8b%E2%AC%C0%D8%A8k%96%B7%E8N%7F%8B%3CE%9F%29%25%22%3B%7D; PHPSESSID=su2vfleboji6rdgli20l0b8ug6; _identity=6579447d737be37d8ea6acc0c4c50fe93fbb7104894e27e9727b78711d23cfd4a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A48%3A%22%5B560%2C%22VmDCPeYZjst2-4Std4Ed0WndREQ9D5vq%22%2C2592000%5D%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://fblog.com/assets/c418a0ef/css/upload.css'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.86 Safari/537.36'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'fblog.com'
+    'REDIRECT_STATUS' => '200'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1497091495.6075
+    'REQUEST_TIME' => 1497091495
+]
