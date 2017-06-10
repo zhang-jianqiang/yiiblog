@@ -45,4 +45,10 @@ class RelationPostTagModel extends BaseModel
             'tag_id' => 'Tag ID',
         ];
     }
+
+    public function getTag()
+    {
+        return $this->hasOne(TagModel::className(), ['id' => 'tag_id']);
+    }
+    
 }

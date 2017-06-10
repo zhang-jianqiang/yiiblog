@@ -5,4 +5,5 @@ return [
     'avatar' => [
         'small' => '/statics/images/avatar/small.jpg',
     ],
+    'upload_url' => 'http://fblog.com',
 ];

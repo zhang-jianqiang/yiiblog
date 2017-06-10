@@ -2,6 +2,7 @@
 
 namespace common\models;
 
+use app\models\PostExtendModel;
 use common\models\base\BaseModel;
 use Yii;
 
@@ -64,6 +65,18 @@ class PostModel extends BaseModel
             'created_at' => 'Created At',
             'updated_at' => 'Updated At',
         ];
+    }
+
+    /**
+     *
+     * @return \yii\db\ActiveQuery
+     */
+    public function getRelate(){
+        return $this->hasMany(RelationPostTagModel::className(),['post_id' => 'id']);
+    }
+
+    public function getExtend(){
+        return $this->hasOne(PostExtendModel::className(), ['post_id' => 'id']);
     }
 
 }

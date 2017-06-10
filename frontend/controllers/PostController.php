@@ -9,8 +9,8 @@
 
 namespace frontend\controllers;
 
+use app\models\PostExtendModel;
 use common\models\CatModel;
-
 use frontend\controllers\base\BaseController;
 use frontend\models\PostForm;
 
@@ -21,10 +21,10 @@ class PostController extends BaseController
     {
         return [
             'upload'=>[
-                'class' => 'common\widgets\file_upload\UploadAction',     //这里扩展地址别写错
-                'config' => [
-                    'imagePathFormat' => "/image/{yyyy}{mm}{dd}/{time}{rand:6}",
-                ]
+                    'class' => 'common\widgets\file_upload\UploadAction',//这里扩展地址别写错
+                    'config' => [
+                        'imagePathFormat' => "/image/{yyyy}{mm}{dd}/{time}{rand:6}",
+                    ]
             ],
             'ueditor'=>[
                 'class' => 'common\widgets\ueditor\UeditorAction',
@@ -66,4 +66,19 @@ class PostController extends BaseController
         $cat = CatModel::getAllCats();
         return $this->render('create', ['model' => $model, 'cat' => $cat]);
     }
+
+    /**
+     * 文章详情
+     */
+    public function actionView($id)
+    {
+        $model = new PostForm();
+        $data = $model->getViewById($id);
+        //文章统计
+        $model = new PostExtendModel();
+        $model->upCounter(['post_id' => $id], 'browser', 1);
+
+        return $this->render('view', ['data' => $data]);
+    }
+
 }
